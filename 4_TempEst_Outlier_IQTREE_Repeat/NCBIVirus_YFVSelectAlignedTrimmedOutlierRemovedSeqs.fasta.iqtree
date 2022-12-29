@@ -1,0 +1,706 @@
+IQ-TREE 2.2.0.3 COVID-edition built Aug  2 2022
+
+Input file name: NCBIVirus_YFVSelectAlignedTrimmedOutlierRemovedSeqs.fasta
+Type of analysis: tree reconstruction
+Random seed number: 547846
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 319 sequences with 10236 nucleotide sites
+Number of constant sites: 7670 (= 74.9316% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 7670 (= 74.9316% of all sites)
+Number of parsimony informative sites: 1926
+Number of distinct site patterns: 3763
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+G4
+
+Rate parameter R:
+
+  A-C: 1.1067
+  A-G: 8.6990
+  A-T: 1.2955
+  C-G: 0.3791
+  C-T: 26.9759
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2685
+  pi(C) = 0.2119
+  pi(G) = 0.2901
+  pi(T) = 0.2296
+
+Rate matrix Q:
+
+  A   -0.6875   0.05276    0.5678   0.06692
+  C   0.06686    -1.485   0.02475     1.393
+  G    0.5255   0.01807   -0.5952   0.05165
+  T   0.07827     1.286   0.06527    -1.429
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.5593
+Gamma shape alpha: 1.413
+
+ Category  Relative_rate  Proportion
+  0         0              0.5593
+  1         0.4802         0.1102
+  2         1.301          0.1102
+  3         2.371          0.1102
+  4         4.924          0.1102
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -38539.4334 (s.e. 511.2894)
+Unconstrained log-likelihood (without tree): -74910.3704
+Number of free parameters (#branches + #model parameters): 617
+Akaike information criterion (AIC) score: 78312.8668
+Corrected Akaike information criterion (AICc) score: 78392.1569
+Bayesian information criterion (BIC) score: 82776.0388
+
+Total tree length (sum of branch lengths): 0.6056
+Sum of internal branch lengths: 0.4376 (72.2472% of tree length)
+
+WARNING: 162 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'MZ712135|Brazil|NHP|2021-03-08' is drawn at root
+Numbers in parentheses are SH-aLRT support (%)
+
++**MZ712135|Brazil|NHP|2021-03-08
+|
+|                                   +--MZ712127|Brazil|NHP|2021-03-04
+|                                +**| (0)
+|                                |  +--MZ712132|Brazil|NHP|2021-02-24
+|                             +**| (0)
+|                             |  |  +**MZ712133|Brazil|NHP|2021-02-25
+|                             |  +--| (91.4)
+|                             |     +--MZ712134|Brazil|NHP|2021-02-25
+|                          +**| (0)
+|                          |  +**MZ712140|Brazil|NHP|2021-01-25
+|                       +**| (0)
+|                       |  +**MZ712143|Brazil|NHP|2021-02-08
+|                    +--| (83.9)
+|                    |  +--MZ712144|Brazil|NHP|2021-02-11
+|                 +**| (0)
+|                 |  |     +--MZ712138|Brazil|NHP|2021-03-03
+|                 |  |  +--| (89.9)
+|                 |  |  |  +--MZ712131|Brazil|NHP|2021-02-19
+|                 |  +**| (0)
+|                 |     +--MZ712146|Brazil|NHP|2021-02-19
+|              +**| (0)
+|              |  +**MZ712128|Brazil|NHP|2021-02-22
+|           +--| (77.6)
+|           |  |  +**MZ712129|Brazil|NHP|2021-02-22
+|           |  +**| (0)
+|           |     +**MZ712130|Brazil|NHP|2021-02-22
+|        +--| (77)
+|        |  |  +--MZ712137|Brazil|NHP|2021-02-26
+|        |  +--| (90.5)
+|        |     |  +--MZ712149|Brazil|NHP|2021-02-24
+|        |     +**| (0)
+|        |        |  +**MZ712147|Brazil|NHP|2021-02-22
+|        |        +--| (40.5)
+|        |           +--MZ712148|Brazil|NHP|2021-02-22
+|     +--| (86.9)
+|     |  +--MZ712139|Brazil|NHP|2021-02-20
+|  +--| (98.2)
+|  |  |     +--MZ712145|Brazil|NHP|2021-02-19
+|  |  |  +**| (0)
+|  |  |  |  +--MW308135|Brazil|Human|2019-01-20
+|  |  +--| (99.2)
+|  |     |                                                                                                                                                                 +--MN737509|Brazil|Unknown|2019-11-21
+|  |     |                                                                                                                +------------------------------------------------| (100)
+|  |     |                                                                                                                |                                                +--MK882620|Brazil|Human|2018-02-05
+|  |     |                                                                                                           +----| (100)
+|  |     |                                                                                                           |    |     +--MW158340|Brazil|NHP|1968-06-06
+|  |     |                                                                                                           |    |  +--| (96)
+|  |     |                                                                                                           |    |  |  +--MW158338|Brazil|NHP|1955-01-21
+|  |     |                                                                                                           |    +--| (100)
+|  |     |                                                                                                           |       +--MW158339|Brazil|NHP|1960-09-23
+|  |     |                                                                                                        +--| (51.6)
+|  |     |                                                                                                        |  |  +--MW158344|Brazil|NHP|1985-06-16
+|  |     |                                                                                                        |  +--| (99.9)
+|  |     |                                                                                                        |     +--MW158343|Brazil|NHP|1973-02-16
+|  |     |                                                                                                     +--| (100)
+|  |     |                                                                                                     |  +--MW158341|Brazil|NHP|1991-06-21
+|  |     |                                                                                                  +--| (98.3)
+|  |     |                                                                                                  |  |  +--MW158347|Trinidad-and-Tobago|NHP|1989-02-22
+|  |     |                                                                                                  |  +--| (100)
+|  |     |                                                                                                  |     |  +**MW158346|Trinidad-and-Tobago|NHP|1989-01-20
+|  |     |                                                                                                  |     +--| (100)
+|  |     |                                                                                                  |        +--MW158345|Trinidad-and-Tobago|NHP|1988-12-14
+|  |     |                                                                                               +--| (86)
+|  |     |                                                                                               |  |  +--MW158364|Trinidad-and-Tobago|NHP|2009-01-22
+|  |     |                                                                                               |  +--| (100)
+|  |     |                                                                                               |     |  +--MW158366|Trinidad-and-Tobago|NHP|2009-01-16
+|  |     |                                                                                               |     +**| (0)
+|  |     |                                                                                               |        |  +**MW158367|Trinidad-and-Tobago|NHP|2009-01-16
+|  |     |                                                                                               |        +--| (85.1)
+|  |     |                                                                                               |           +**MW158365|Trinidad-and-Tobago|NHP|2008-12-05
+|  |     |                                                                                            +--| (100)
+|  |     |                                                                                            |  |  +--MF370545|Brazil|NHP|2017-04-05
+|  |     |                                                                                            |  +--| (100)
+|  |     |                                                                                            |     |        +--MH018101|Brazil|Human|2003-08-15
+|  |     |                                                                                            |     |     +--| (99.9)
+|  |     |                                                                                            |     |     |  +--MH018100|Brazil|Human|2003-03-15
+|  |     |                                                                                            |     |  +--| (99.3)
+|  |     |                                                                                            |     |  |  +--MG969501|Brazil|Human|2001-03-07
+|  |     |                                                                                            |     +--| (99.9)
+|  |     |                                                                                            |        +--MW158342|Brazil|NHP|2000-02-07
+|  |     |                                                                                         +--| (100)
+|  |     |                                                                                         |  |  +--MF370542|Brazil|NHP|2017-03-14
+|  |     |                                                                                         |  +--| (100)
+|  |     |                                                                                         |     +--MF370539|Brazil|NHP|2017-02-23
+|  |     |                                                                                      +--| (42.5)
+|  |     |                                                                                      |  |  +--MK333803|Brazil|NHP|2017-04-20
+|  |     |                                                                                      |  +--| (100)
+|  |     |                                                                                      |     +--MF370543|Brazil|NHP|2017-03-03
+|  |     |                                                                                   +--| (97.1)
+|  |     |                                                                                   |  +--KY861728|Brazil|NHP|2008-02-09
+|  |     |                                                                                +--| (98.8)
+|  |     |                                                                                |  +--MF370541|Brazil|NHP|2017-02-28
+|  |     |                                                                             +--| (80.5)
+|  |     |                                                                             |  +--MF370540|Brazil|NHP|2017-02-25
+|  |     |                                                                          +--| (100)
+|  |     |                                                                          |  +--MF370544|Brazil|NHP|2017-04-05
+|  |     |                                                                       +--| (100)
+|  |     |                                                                       |  +--MF370546|Brazil|NHP|2017-04-05
+|  |     |                                                                    +**| (0)
+|  |     |                                                                    |  |  +--MH484431|Brazil|NHP|2017-02-14
+|  |     |                                                                    |  +--| (97.4)
+|  |     |                                                                    |     |           +**MH666058|Brazil|NHP|2016-12-19
+|  |     |                                                                    |     |        +--| (100)
+|  |     |                                                                    |     |        |  +**MH666056|Brazil|NHP|2016-11-16
+|  |     |                                                                    |     |     +--| (51.6)
+|  |     |                                                                    |     |     |  +--MT497523|Brazil|NHP|2016-11-16
+|  |     |                                                                    |     |  +--| (89.8)
+|  |     |                                                                    |     |  |  +--MT497524|Brazil|NHP|2016-12-12
+|  |     |                                                                    |     +--| (97.7)
+|  |     |                                                                    |        +--MT497520|Brazil|NHP|2016-10-10
+|  |     |                                                                 +--| (97.1)
+|  |     |                                                                 |  |                                         +--MK533792|Brazil|NHP|2019-01-10
+|  |     |                                                                 |  |                                      +--| (96.6)
+|  |     |                                                                 |  |                                      |  |  +**MK882600|Brazil|Human|2018-04-24
+|  |     |                                                                 |  |                                      |  +--| (91.5)
+|  |     |                                                                 |  |                                      |     +**MK882603|Brazil|Human|2018-04-24
+|  |     |                                                                 |  |                                   +**| (0)
+|  |     |                                                                 |  |                                   |  |  +--MN643081|Brazil|Human|2018-02-19
+|  |     |                                                                 |  |                                   |  +--| (94.3)
+|  |     |                                                                 |  |                                   |     +--MN643082|Brazil|Human|2018-02-16
+|  |     |                                                                 |  |                                +--| (93.5)
+|  |     |                                                                 |  |                                |  +**MN506275|Brazil|Unknown|2017-05-05
+|  |     |                                                                 |  |                             +**| (0)
+|  |     |                                                                 |  |                             |  |  +--MN506266|Brazil|Unknown|2018-01-09
+|  |     |                                                                 |  |                             |  +**| (0)
+|  |     |                                                                 |  |                             |     +--MK333801|Brazil|NHP|2017-04-05
+|  |     |                                                                 |  |                          +**| (0)
+|  |     |                                                                 |  |                          |  |     +--MN506278|Brazil|Unknown|2017-05-07
+|  |     |                                                                 |  |                          |  |  +**| (0)
+|  |     |                                                                 |  |                          |  |  |  +--MF423376|Brazil|NHP|2017-04-13
+|  |     |                                                                 |  |                          |  +**| (0)
+|  |     |                                                                 |  |                          |     |  +--MN643088|Brazil|NHP|2017-04-19
+|  |     |                                                                 |  |                          |     +**| (0)
+|  |     |                                                                 |  |                          |        |  +**MK333802|Brazil|NHP|2017-04-05
+|  |     |                                                                 |  |                          |        +--| (86.4)
+|  |     |                                                                 |  |                          |           +--MF170974|Brazil|Human|2017-03-29
+|  |     |                                                                 |  |                       +**| (0)
+|  |     |                                                                 |  |                       |  +**MN643091|Brazil|NHP|2018-02-07
+|  |     |                                                                 |  |                    +**| (0)
+|  |     |                                                                 |  |                    |  |           +--MN643086|Brazil|Human|2018-02-14
+|  |     |                                                                 |  |                    |  |        +**| (0)
+|  |     |                                                                 |  |                    |  |        |  +--MG550109|Brazil|Human|2017-04-18
+|  |     |                                                                 |  |                    |  |     +**| (0)
+|  |     |                                                                 |  |                    |  |     |  +--MN506276|Brazil|Unknown|2017-05-05
+|  |     |                                                                 |  |                    |  |  +**| (0)
+|  |     |                                                                 |  |                    |  |  |  |        +--MN643085|Brazil|Human|2018-02-11
+|  |     |                                                                 |  |                    |  |  |  |     +**| (0)
+|  |     |                                                                 |  |                    |  |  |  |     |  +--MF170972|Brazil|Human|2017-03-31
+|  |     |                                                                 |  |                    |  |  |  |  +**| (0)
+|  |     |                                                                 |  |                    |  |  |  |  |  |  +--MN643089|Brazil|NHP|2017-10-19
+|  |     |                                                                 |  |                    |  |  |  |  |  +**| (0)
+|  |     |                                                                 |  |                    |  |  |  |  |     +--MN506267|Brazil|Unknown|2017-05-08
+|  |     |                                                                 |  |                    |  |  |  +**| (0)
+|  |     |                                                                 |  |                    |  |  |     |        +--MF538786|Brazil|NHP|2017-06-05
+|  |     |                                                                 |  |                    |  |  |     |     +**| (0)
+|  |     |                                                                 |  |                    |  |  |     |     |  +--MF370547|Brazil|NHP|2017-03-27
+|  |     |                                                                 |  |                    |  |  |     |  +**| (0)
+|  |     |                                                                 |  |                    |  |  |     |  |  |              +**MN506280|Brazil|Unknown|2017-05-07
+|  |     |                                                                 |  |                    |  |  |     |  |  |           +**| (0)
+|  |     |                                                                 |  |                    |  |  |     |  |  |           |  +**MN506268|Brazil|Unknown|2017-05-05
+|  |     |                                                                 |  |                    |  |  |     |  |  |        +**| (0)
+|  |     |                                                                 |  |                    |  |  |     |  |  |        |  +**MN506279|Brazil|Unknown|2017-05-04
+|  |     |                                                                 |  |                    |  |  |     |  |  |     +--| (82.8)
+|  |     |                                                                 |  |                    |  |  |     |  |  |     |  +--MN506271|Brazil|Unknown|2017-05-05
+|  |     |                                                                 |  |                    |  |  |     |  |  |  +**| (0)
+|  |     |                                                                 |  |                    |  |  |     |  |  |  |  +--MN506281|Brazil|Unknown|2017-04-26
+|  |     |                                                                 |  |                    |  |  |     |  |  +**| (0)
+|  |     |                                                                 |  |                    |  |  |     |  |     |     +**MN506269|Brazil|Unknown|2017-05-06
+|  |     |                                                                 |  |                    |  |  |     |  |     |  +**| (0)
+|  |     |                                                                 |  |                    |  |  |     |  |     |  |  +**MN506272|Brazil|Unknown|2017-05-06
+|  |     |                                                                 |  |                    |  |  |     |  |     +--| (92.8)
+|  |     |                                                                 |  |                    |  |  |     |  |        +**MN506274|Brazil|Unknown|2017-05-06
+|  |     |                                                                 |  |                    |  |  |     +**| (0)
+|  |     |                                                                 |  |                    |  |  |        +**MF170973|Brazil|Human|2017-04-10
+|  |     |                                                                 |  |                    |  +**| (0)
+|  |     |                                                                 |  |                    |     |        +--MN643092|Brazil|NHP|2018-02-07
+|  |     |                                                                 |  |                    |     |     +**| (0)
+|  |     |                                                                 |  |                    |     |     |  +--MF170980|Brazil|Human|2017-03-23
+|  |     |                                                                 |  |                    |     |  +**| (0)
+|  |     |                                                                 |  |                    |     |  |  +--MN506277|Brazil|Unknown|2017-05-05
+|  |     |                                                                 |  |                    |     +**| (0)
+|  |     |                                                                 |  |                    |        +**MN506273|Brazil|Unknown|2017-05-05
+|  |     |                                                                 |  |                 +**| (0)
+|  |     |                                                                 |  |                 |  +**MK583168|Brazil|Human|2018-02-11
+|  |     |                                                                 |  |              +**| (0)
+|  |     |                                                                 |  |              |  |           +**MK882621|Brazil|Human|2018-02-05
+|  |     |                                                                 |  |              |  |        +**| (0)
+|  |     |                                                                 |  |              |  |        |  |        +--MK882617|Brazil|Human|2017-11-28
+|  |     |                                                                 |  |              |  |        |  |     +**| (0)
+|  |     |                                                                 |  |              |  |        |  |     |  +**MK882615|Brazil|Human|2017-03-27
+|  |     |                                                                 |  |              |  |        |  |  +**| (0)
+|  |     |                                                                 |  |              |  |        |  |  |  +**MK882608|Brazil|Human|2017-03-12
+|  |     |                                                                 |  |              |  |        |  +**| (0)
+|  |     |                                                                 |  |              |  |        |     |  +**MK882613|Brazil|Human|2017-03-27
+|  |     |                                                                 |  |              |  |        |     +--| (92.9)
+|  |     |                                                                 |  |              |  |        |        +**MF185660|Brazil|NHP|2017-01-25
+|  |     |                                                                 |  |              |  |     +--| (80.5)
+|  |     |                                                                 |  |              |  |     |  |  +**MK882607|Brazil|Human|2017-03-09
+|  |     |                                                                 |  |              |  |     |  +**| (0)
+|  |     |                                                                 |  |              |  |     |     +**MK882611|Brazil|Human|2017-03-08
+|  |     |                                                                 |  |              |  |  +**| (0)
+|  |     |                                                                 |  |              |  |  |  +--MF434851|Brazil|Human|2017-04-25
+|  |     |                                                                 |  |              |  +**| (0)
+|  |     |                                                                 |  |              |     |  +--MH018112|Brazil|NHP|2017-04-17
+|  |     |                                                                 |  |              |     +**| (0)
+|  |     |                                                                 |  |              |        |     +--MF170981|Brazil|Human|2017-04-05
+|  |     |                                                                 |  |              |        |  +**| (0)
+|  |     |                                                                 |  |              |        |  |  +--MF170970|Brazil|Human|2017-03-21
+|  |     |                                                                 |  |              |        +**| (0)
+|  |     |                                                                 |  |              |           +--MF170969|Brazil|Human|2017-03-18
+|  |     |                                                                 |  |           +**| (0)
+|  |     |                                                                 |  |           |  |  +--MN643087|Brazil|Human|2018-02-13
+|  |     |                                                                 |  |           |  +--| (88.3)
+|  |     |                                                                 |  |           |     |                    +--MH018113|Brazil|Human|2017-04-22
+|  |     |                                                                 |  |           |     |                 +--| (82.3)
+|  |     |                                                                 |  |           |     |                 |  |     +**MH018111|Brazil|Human|2017-04-10
+|  |     |                                                                 |  |           |     |                 |  |  +--| (84.5)
+|  |     |                                                                 |  |           |     |                 |  |  |  +--MH018110|Brazil|NHP|2017-03-09
+|  |     |                                                                 |  |           |     |                 |  +**| (0)
+|  |     |                                                                 |  |           |     |                 |     +--MH018108|Brazil|Human|2017-03-10
+|  |     |                                                                 |  |           |     |              +**| (0)
+|  |     |                                                                 |  |           |     |              |  |     +--MH018102|Brazil|NHP|2017-01-31
+|  |     |                                                                 |  |           |     |              |  |  +**| (0)
+|  |     |                                                                 |  |           |     |              |  |  |  |     +--MH018103|Brazil|Human|2017-01-30
+|  |     |                                                                 |  |           |     |              |  |  |  |  +**| (0)
+|  |     |                                                                 |  |           |     |              |  |  |  |  |  +--MH018105|Brazil|Human|2017-01-28
+|  |     |                                                                 |  |           |     |              |  |  |  +**| (0)
+|  |     |                                                                 |  |           |     |              |  |  |     +--MH018104|Brazil|Human|2017-01-30
+|  |     |                                                                 |  |           |     |              |  +--| (90.7)
+|  |     |                                                                 |  |           |     |              |     +--MH018106|Brazil|NHP|2017-01-13
+|  |     |                                                                 |  |           |     |           +--| (93.2)
+|  |     |                                                                 |  |           |     |           |  +**MH018109|Brazil|NHP|2017-03-08
+|  |     |                                                                 |  |           |     |        +**| (0)
+|  |     |                                                                 |  |           |     |        |  |  +--MN604282|Brazil|NHP|2017-03-16
+|  |     |                                                                 |  |           |     |        |  +--| (14.4)
+|  |     |                                                                 |  |           |     |        |     +**MN604283|Brazil|NHP|2017-03-15
+|  |     |                                                                 |  |           |     |     +--| (86.2)
+|  |     |                                                                 |  |           |     |     |  +**MN604281|Brazil|NHP|2017-03-13
+|  |     |                                                                 |  |           |     |  +--| (81.7)
+|  |     |                                                                 |  |           |     |  |  +**MN604285|Brazil|NHP|2017-04-05
+|  |     |                                                                 |  |           |     +**| (0)
+|  |     |                                                                 |  |           |        +**MN604286|Brazil|NHP|2017-04-07
+|  |     |                                                                 |  |        +**| (0)
+|  |     |                                                                 |  |        |  +--MF538783|Brazil|Human|2017-03-18
+|  |     |                                                                 |  |     +--| (80.4)
+|  |     |                                                                 |  |     |  +--MF370533|Brazil|Human|2017-01-11
+|  |     |                                                                 |  |  +--| (88.8)
+|  |     |                                                                 |  |  |  |                                +**MN643083|Brazil|Human|2018-02-25
+|  |     |                                                                 |  |  |  |                             +--| (94.4)
+|  |     |                                                                 |  |  |  |                             |  +--MN643084|Brazil|Human|2018-02-25
+|  |     |                                                                 |  |  |  |                          +--| (82.9)
+|  |     |                                                                 |  |  |  |                          |  |                 +**MF370531|Brazil|Human|2017-02-28
+|  |     |                                                                 |  |  |  |                          |  |              +--| (91.4)
+|  |     |                                                                 |  |  |  |                          |  |              |  +**MH018107|Brazil|Human|2017-02-22
+|  |     |                                                                 |  |  |  |                          |  |           +**| (0)
+|  |     |                                                                 |  |  |  |                          |  |           |  +--MF370530|Brazil|NHP|2017-01-15
+|  |     |                                                                 |  |  |  |                          |  |        +**| (0)
+|  |     |                                                                 |  |  |  |                          |  |        |  +--MH018114|Brazil|NHP|2017-01-24
+|  |     |                                                                 |  |  |  |                          |  |     +**| (0)
+|  |     |                                                                 |  |  |  |                          |  |     |  +**MF423374|Brazil|NHP|2017-02-23
+|  |     |                                                                 |  |  |  |                          |  |  +**| (0)
+|  |     |                                                                 |  |  |  |                          |  |  |  +**MK333800|Brazil|NHP|2017-02-20
+|  |     |                                                                 |  |  |  |                          |  +**| (0)
+|  |     |                                                                 |  |  |  |                          |     +--MF370537|Brazil|NHP|2017-01-17
+|  |     |                                                                 |  |  |  |                       +**| (0)
+|  |     |                                                                 |  |  |  |                       |  +--MK583154|Brazil|Human|2018-01-21
+|  |     |                                                                 |  |  |  |                    +**| (0)
+|  |     |                                                                 |  |  |  |                    |  |                       +--MN643080|Brazil|Human|2018-02-17
+|  |     |                                                                 |  |  |  |                    |  |                    +**| (0)
+|  |     |                                                                 |  |  |  |                    |  |                    |  |        +--MK333806|Brazil|NHP|2018-01-27
+|  |     |                                                                 |  |  |  |                    |  |                    |  |     +**| (0)
+|  |     |                                                                 |  |  |  |                    |  |                    |  |     |  +--MN506290|Brazil|Unknown|2018-01-18
+|  |     |                                                                 |  |  |  |                    |  |                    |  |  +**| (0)
+|  |     |                                                                 |  |  |  |                    |  |                    |  |  |  |  +**MK333809|Brazil|NHP|2018-01-19
+|  |     |                                                                 |  |  |  |                    |  |                    |  |  |  +**| (0)
+|  |     |                                                                 |  |  |  |                    |  |                    |  |  |     +**MK333807|Brazil|NHP|2018-01-18
+|  |     |                                                                 |  |  |  |                    |  |                    |  +--| (84.3)
+|  |     |                                                                 |  |  |  |                    |  |                    |     +--MN643077|Brazil|Human|2018-01-16
+|  |     |                                                                 |  |  |  |                    |  |                 +**| (0)
+|  |     |                                                                 |  |  |  |                    |  |                 |  +**MN506265|Brazil|Unknown|2017-12-19
+|  |     |                                                                 |  |  |  |                    |  |              +--| (92.3)
+|  |     |                                                                 |  |  |  |                    |  |              |  +--MN643078|Brazil|Human|2018-01-25
+|  |     |                                                                 |  |  |  |                    |  |           +**| (0)
+|  |     |                                                                 |  |  |  |                    |  |           |  |     +--MK882619|Brazil|Human|2018-01-25
+|  |     |                                                                 |  |  |  |                    |  |           |  |  +--| (83.1)
+|  |     |                                                                 |  |  |  |                    |  |           |  |  |  +--MN604284|Brazil|Human|2017-03-15
+|  |     |                                                                 |  |  |  |                    |  |           |  +**| (0)
+|  |     |                                                                 |  |  |  |                    |  |           |     +--MK882604|Brazil|Human|2017-02-16
+|  |     |                                                                 |  |  |  |                    |  |        +**| (0)
+|  |     |                                                                 |  |  |  |                    |  |        |  |     +--MK333808|Brazil|NHP|2018-01-29
+|  |     |                                                                 |  |  |  |                    |  |        |  |  +**| (0)
+|  |     |                                                                 |  |  |  |                    |  |        |  |  |  |  +**MF538785|Brazil|NHP|2017-04-21
+|  |     |                                                                 |  |  |  |                    |  |        |  |  |  +--| (83.2)
+|  |     |                                                                 |  |  |  |                    |  |        |  |  |     +**MF370548|Brazil|NHP|2017-04-20
+|  |     |                                                                 |  |  |  |                    |  |        |  +**| (0)
+|  |     |                                                                 |  |  |  |                    |  |        |     |           +**MN506289|Brazil|Unknown|2018-01-26
+|  |     |                                                                 |  |  |  |                    |  |        |     |        +**| (0)
+|  |     |                                                                 |  |  |  |                    |  |        |     |        |  +**MN506291|Brazil|Unknown|2018-01-26
+|  |     |                                                                 |  |  |  |                    |  |        |     |     +**| (0)
+|  |     |                                                                 |  |  |  |                    |  |        |     |     |  +**MN506285|Brazil|Unknown|2018-01-24
+|  |     |                                                                 |  |  |  |                    |  |        |     |  +**| (0)
+|  |     |                                                                 |  |  |  |                    |  |        |     |  |  +--MK882618|Brazil|Human|2018-01-22
+|  |     |                                                                 |  |  |  |                    |  |        |     +--| (94.6)
+|  |     |                                                                 |  |  |  |                    |  |        |        +**MN506288|Brazil|Unknown|2018-01-24
+|  |     |                                                                 |  |  |  |                    |  |     +**| (0)
+|  |     |                                                                 |  |  |  |                    |  |     |  +**MF423373|Brazil|NHP|2017-02-21
+|  |     |                                                                 |  |  |  |                    |  |  +**| (0)
+|  |     |                                                                 |  |  |  |                    |  |  |  |  +**MN643079|Brazil|Human|2018-01-26
+|  |     |                                                                 |  |  |  |                    |  |  |  +**| (0)
+|  |     |                                                                 |  |  |  |                    |  |  |     +**MF423378|Brazil|NHP|2017-04-19
+|  |     |                                                                 |  |  |  |                    |  +--| (85.1)
+|  |     |                                                                 |  |  |  |                    |     +--MF170975|Brazil|Human|2017-03-03
+|  |     |                                                                 |  |  |  |                 +**| (0)
+|  |     |                                                                 |  |  |  |                 |  |        +--MF170979|Brazil|Human|2017-04-06
+|  |     |                                                                 |  |  |  |                 |  |     +**| (0)
+|  |     |                                                                 |  |  |  |                 |  |     |  +--KY885001|Brazil|NHP|2017-02-22
+|  |     |                                                                 |  |  |  |                 |  |  +--| (85.5)
+|  |     |                                                                 |  |  |  |                 |  |  |  +--MF170978|Brazil|Human|2017-03-28
+|  |     |                                                                 |  |  |  |                 |  +**| (0)
+|  |     |                                                                 |  |  |  |                 |     +--MF538782|Brazil|Human|2017-03-16
+|  |     |                                                                 |  |  |  |              +**| (0)
+|  |     |                                                                 |  |  |  |              |  |  +--MF170968|Brazil|Human|2017-04-13
+|  |     |                                                                 |  |  |  |              |  +--| (74.2)
+|  |     |                                                                 |  |  |  |              |     +--MF170976|Brazil|Human|2017-01-25
+|  |     |                                                                 |  |  |  |           +--| (78.6)
+|  |     |                                                                 |  |  |  |           |  |  +**MF538784|Brazil|Human|2017-02-26
+|  |     |                                                                 |  |  |  |           |  +--| (93.3)
+|  |     |                                                                 |  |  |  |           |     +**MF170977|Brazil|Human|2017-02-10
+|  |     |                                                                 |  |  |  |        +**| (0)
+|  |     |                                                                 |  |  |  |        |  |                                         +--MH329655|Brazil|NHP|2018-01-29
+|  |     |                                                                 |  |  |  |        |  |                                      +**| (0)
+|  |     |                                                                 |  |  |  |        |  |                                      |  |  +--MK882599|Brazil|Human|2017-02-09
+|  |     |                                                                 |  |  |  |        |  |                                      |  +--| (25.8)
+|  |     |                                                                 |  |  |  |        |  |                                      |     +**MK882602|Brazil|Human|2017-01-31
+|  |     |                                                                 |  |  |  |        |  |                                   +**| (0)
+|  |     |                                                                 |  |  |  |        |  |                                   |  |  +--MK882609|Brazil|Human|2017-03-13
+|  |     |                                                                 |  |  |  |        |  |                                   |  +--| (72.2)
+|  |     |                                                                 |  |  |  |        |  |                                   |     +**MH018085|Brazil|Human|2017-01-13
+|  |     |                                                                 |  |  |  |        |  |                                +**| (0)
+|  |     |                                                                 |  |  |  |        |  |                                |  +--MH018077|Brazil|Human|2017-01-07
+|  |     |                                                                 |  |  |  |        |  |                             +**| (0)
+|  |     |                                                                 |  |  |  |        |  |                             |  +--MK882610|Brazil|Human|2017-03-06
+|  |     |                                                                 |  |  |  |        |  |                          +**| (0)
+|  |     |                                                                 |  |  |  |        |  |                          |  |  +--MH484424|Brazil|Human|2017-01-24
+|  |     |                                                                 |  |  |  |        |  |                          |  +--| (79.2)
+|  |     |                                                                 |  |  |  |        |  |                          |     +--MH018070|Brazil|Human|2017-01-21
+|  |     |                                                                 |  |  |  |        |  |                       +**| (0)
+|  |     |                                                                 |  |  |  |        |  |                       |  +--MH484428|Brazil|Human|2017-02-05
+|  |     |                                                                 |  |  |  |        |  |                    +**| (0)
+|  |     |                                                                 |  |  |  |        |  |                    |  |                             +--MH018081|Brazil|NHP|2017-02-22
+|  |     |                                                                 |  |  |  |        |  |                    |  |                          +**| (0)
+|  |     |                                                                 |  |  |  |        |  |                    |  |                          |  +--MH018069|Brazil|Human|2017-01-14
+|  |     |                                                                 |  |  |  |        |  |                    |  |                       +--| (91.4)
+|  |     |                                                                 |  |  |  |        |  |                    |  |                       |  +--MH018098|Brazil|NHP|2017-01-25
+|  |     |                                                                 |  |  |  |        |  |                    |  |                    +**| (0)
+|  |     |                                                                 |  |  |  |        |  |                    |  |                    |  +--MH018088|Brazil|Human|2017-01-21
+|  |     |                                                                 |  |  |  |        |  |                    |  |                 +**| (0)
+|  |     |                                                                 |  |  |  |        |  |                    |  |                 |  +**MH018072|Brazil|Human|2017-01-07
+|  |     |                                                                 |  |  |  |        |  |                    |  |              +--| (85.4)
+|  |     |                                                                 |  |  |  |        |  |                    |  |              |  +**MH018087|Brazil|Human|2017-01-10
+|  |     |                                                                 |  |  |  |        |  |                    |  |           +**| (0)
+|  |     |                                                                 |  |  |  |        |  |                    |  |           |  +--MH018073|Brazil|Human|2017-01-20
+|  |     |                                                                 |  |  |  |        |  |                    |  |        +**| (0)
+|  |     |                                                                 |  |  |  |        |  |                    |  |        |  +--MH018089|Brazil|Human|2017-01-02
+|  |     |                                                                 |  |  |  |        |  |                    |  |     +**| (0)
+|  |     |                                                                 |  |  |  |        |  |                    |  |     |  +--MH018084|Brazil|NHP|2017-02-09
+|  |     |                                                                 |  |  |  |        |  |                    |  |  +**| (0)
+|  |     |                                                                 |  |  |  |        |  |                    |  |  |  +--MH018074|Brazil|Human|2017-01-14
+|  |     |                                                                 |  |  |  |        |  |                    |  +--| (91.2)
+|  |     |                                                                 |  |  |  |        |  |                    |     |              +--MH018071|Brazil|Human|2017-01-25
+|  |     |                                                                 |  |  |  |        |  |                    |     |           +**| (0)
+|  |     |                                                                 |  |  |  |        |  |                    |     |           |  +--MH018075|Brazil|Human|2017-01-18
+|  |     |                                                                 |  |  |  |        |  |                    |     |        +**| (0)
+|  |     |                                                                 |  |  |  |        |  |                    |     |        |  +--MH018086|Brazil|Human|2017-01-19
+|  |     |                                                                 |  |  |  |        |  |                    |     |     +--| (85.2)
+|  |     |                                                                 |  |  |  |        |  |                    |     |     |  +--MH018097|Brazil|NHP|2017-01-25
+|  |     |                                                                 |  |  |  |        |  |                    |     |  +--| (96.4)
+|  |     |                                                                 |  |  |  |        |  |                    |     |  |  +**MH018093|Brazil|Human|2017-01-20
+|  |     |                                                                 |  |  |  |        |  |                    |     +--| (91.9)
+|  |     |                                                                 |  |  |  |        |  |                    |        +**MH484432|Brazil|NHP|2017-01-23
+|  |     |                                                                 |  |  |  |        |  |                 +**| (0)
+|  |     |                                                                 |  |  |  |        |  |                 |  +--MK882612|Brazil|Human|2017-03-20
+|  |     |                                                                 |  |  |  |        |  |              +--| (74.5)
+|  |     |                                                                 |  |  |  |        |  |              |  |     +--MH018083|Brazil|NHP|2017-02-17
+|  |     |                                                                 |  |  |  |        |  |              |  |  +**| (0)
+|  |     |                                                                 |  |  |  |        |  |              |  |  |  |     +--MH018079|Brazil|Human|2017-01-28
+|  |     |                                                                 |  |  |  |        |  |              |  |  |  |  +**| (0)
+|  |     |                                                                 |  |  |  |        |  |              |  |  |  |  |  +**MH018096|Brazil|NHP|2017-01-13
+|  |     |                                                                 |  |  |  |        |  |              |  |  |  +**| (0)
+|  |     |                                                                 |  |  |  |        |  |              |  |  |     +--MH018076|Brazil|Human|2017-01-19
+|  |     |                                                                 |  |  |  |        |  |              |  +**| (0)
+|  |     |                                                                 |  |  |  |        |  |              |     |  +--MH018091|Brazil|Human|2017-01-30
+|  |     |                                                                 |  |  |  |        |  |              |     +--| (77.5)
+|  |     |                                                                 |  |  |  |        |  |              |        +--MH018078|Brazil|Human|2017-01-18
+|  |     |                                                                 |  |  |  |        |  |           +--| (35.4)
+|  |     |                                                                 |  |  |  |        |  |           |  |     +**MK882614|Brazil|Human|2017-04-17
+|  |     |                                                                 |  |  |  |        |  |           |  |  +--| (89)
+|  |     |                                                                 |  |  |  |        |  |           |  |  |  +**MK882616|Brazil|Human|2017-04-17
+|  |     |                                                                 |  |  |  |        |  |           |  +--| (0)
+|  |     |                                                                 |  |  |  |        |  |           |     +**MH018068|Brazil|Human|2017-01-09
+|  |     |                                                                 |  |  |  |        |  |        +**| (0)
+|  |     |                                                                 |  |  |  |        |  |        |  |  +--MH484423|Brazil|NHP|2017-01-24
+|  |     |                                                                 |  |  |  |        |  |        |  +--| (0)
+|  |     |                                                                 |  |  |  |        |  |        |     |  +--MH484427|Brazil|NHP|2017-01-24
+|  |     |                                                                 |  |  |  |        |  |        |     +**| (0)
+|  |     |                                                                 |  |  |  |        |  |        |        |  +--MH484434|Brazil|Human|2017-01-22
+|  |     |                                                                 |  |  |  |        |  |        |        +**| (0)
+|  |     |                                                                 |  |  |  |        |  |        |           |  +--MH018095|Brazil|NHP|2017-01-19
+|  |     |                                                                 |  |  |  |        |  |        |           +--| (85.2)
+|  |     |                                                                 |  |  |  |        |  |        |              +**MH484426|Brazil|NHP|2017-01-13
+|  |     |                                                                 |  |  |  |        |  |     +**| (0)
+|  |     |                                                                 |  |  |  |        |  |     |  |           +--MN604287|Brazil|NHP|2017-03-17
+|  |     |                                                                 |  |  |  |        |  |     |  |        +--| (27.8)
+|  |     |                                                                 |  |  |  |        |  |     |  |        |  +**MN604280|Brazil|NHP|2017-03-10
+|  |     |                                                                 |  |  |  |        |  |     |  |     +--| (99.4)
+|  |     |                                                                 |  |  |  |        |  |     |  |     |  +**MH018099|Brazil|NHP|2017-03-10
+|  |     |                                                                 |  |  |  |        |  |     |  |  +**| (0)
+|  |     |                                                                 |  |  |  |        |  |     |  |  |  +--MH484425|Brazil|Human|2017-01-27
+|  |     |                                                                 |  |  |  |        |  |     |  +--| (85)
+|  |     |                                                                 |  |  |  |        |  |     |     +--MH018080|Brazil|Human|2017-01-28
+|  |     |                                                                 |  |  |  |        |  |  +**| (0)
+|  |     |                                                                 |  |  |  |        |  |  |  +**MH018092|Brazil|Human|2017-01-27
+|  |     |                                                                 |  |  |  |        |  +--| (44.1)
+|  |     |                                                                 |  |  |  |        |     |     +**MK882605|Brazil|Human|2017-03-09
+|  |     |                                                                 |  |  |  |        |     |  +--| (0)
+|  |     |                                                                 |  |  |  |        |     |  |  |  +--MF185661|Brazil|Human|2017-02-23
+|  |     |                                                                 |  |  |  |        |     |  |  +**| (0)
+|  |     |                                                                 |  |  |  |        |     |  |     +--MK882601|Brazil|Human|2017-01-24
+|  |     |                                                                 |  |  |  |        |     +**| (0)
+|  |     |                                                                 |  |  |  |        |        |     +**MK882606|Brazil|Human|2017-03-07
+|  |     |                                                                 |  |  |  |        |        |  +**| (0)
+|  |     |                                                                 |  |  |  |        |        |  |  +--MH018090|Brazil|Human|2017-01-12
+|  |     |                                                                 |  |  |  |        |        +--| (83.1)
+|  |     |                                                                 |  |  |  |        |           +--MH018094|Brazil|Human|2017-01-30
+|  |     |                                                                 |  |  |  |     +**| (0)
+|  |     |                                                                 |  |  |  |     |  +--MF370534|Brazil|NHP|2016-04-05
+|  |     |                                                                 |  |  |  |  +**| (0)
+|  |     |                                                                 |  |  |  |  |  +**MF370532|Brazil|Human|2017-01-10
+|  |     |                                                                 |  |  |  +**| (0)
+|  |     |                                                                 |  |  |     |           +--MH484429|Brazil|NHP|2017-02-03
+|  |     |                                                                 |  |  |     |        +--| (73.5)
+|  |     |                                                                 |  |  |     |        |  +--MF465805|Brazil|Human|2017-01-17
+|  |     |                                                                 |  |  |     |     +**| (0)
+|  |     |                                                                 |  |  |     |     |  +**MF370535|Brazil|NHP|2016-08-30
+|  |     |                                                                 |  |  |     |  +--| (95.3)
+|  |     |                                                                 |  |  |     |  |  +--MF370536|Brazil|NHP|2016-09-02
+|  |     |                                                                 |  |  |     +**| (0)
+|  |     |                                                                 |  |  |        +--MF370538|Brazil|NHP|2017-01-20
+|  |     |                                                                 |  +--| (97.9)
+|  |     |                                                                 |     +--MF370549|Brazil|NHP|2015-08-26
+|  |     |                                                              +**| (0)
+|  |     |                                                              |  +--MK333804|Brazil|NHP|2015-08-17
+|  |     |                                                           +--| (97.9)
+|  |     |                                                           |  +--MK728873|Brazil|Human|2017-03-04
+|  |     |                                                        +**| (0)
+|  |     |                                                        |  |           +--MH018082|Brazil|NHP|2017-02-20
+|  |     |                                                        |  |        +**| (0)
+|  |     |                                                        |  |        |  +**MH018065|Brazil|NHP|2017-02-14
+|  |     |                                                        |  |     +--| (0)
+|  |     |                                                        |  |     |  +--MH484433|Brazil|NHP|2017-02-03
+|  |     |                                                        |  |  +--| (80.8)
+|  |     |                                                        |  |  |  +--MH484430|Brazil|NHP|2017-02-09
+|  |     |                                                        |  +--| (88.5)
+|  |     |                                                        |     +--MF170971|Brazil|NHP|2017-01-30
+|  |     |                                                     +--| (88.9)
+|  |     |                                                     |  +**MH018115|Brazil|NHP|2017-01-24
+|  |     |                                                  +--| (78)
+|  |     |                                                  |  |  +**MN117917|Brazil|NHP|2017-02-15
+|  |     |                                                  |  +--| (90.6)
+|  |     |                                                  |     +--MT497521|Brazil|NHP|2016-10-13
+|  |     |                                               +**| (0)
+|  |     |                                               |  |     +--MH666057|Brazil|NHP|2017-01-23
+|  |     |                                               |  |  +**| (0)
+|  |     |                                               |  |  |  +**MW034590|Brazil|NHP|2016-11-01
+|  |     |                                               |  +--| (88.3)
+|  |     |                                               |     |  +--MT497525|Brazil|NHP|2017-01-21
+|  |     |                                               |     +--| (62.6)
+|  |     |                                               |        +--MT497522|Brazil|NHP|2016-11-15
+|  |     |                                            +--| (86.9)
+|  |     |                                            |  |                 +--MK583180|Brazil|Human|2018-03-14
+|  |     |                                            |  |              +**| (0)
+|  |     |                                            |  |              |  |  +--MK583170|Brazil|Human|2018-02-18
+|  |     |                                            |  |              |  +**| (0)
+|  |     |                                            |  |              |     +--MK583150|Brazil|Human|2018-01-15
+|  |     |                                            |  |           +**| (0)
+|  |     |                                            |  |           |  +**MK583171|Brazil|Human|2018-02-18
+|  |     |                                            |  |        +**| (0)
+|  |     |                                            |  |        |  +**MK583174|Brazil|Human|2018-02-24
+|  |     |                                            |  |     +**| (0)
+|  |     |                                            |  |     |  +--MK583169|Brazil|Human|2018-02-18
+|  |     |                                            |  |  +--| (88.1)
+|  |     |                                            |  |  |  |     +**MH030070|Brazil|NHP|2017-10-19
+|  |     |                                            |  |  |  |  +--| (83)
+|  |     |                                            |  |  |  |  |  +**MH030057|Brazil|NHP|2017-09-27
+|  |     |                                            |  |  |  +--| (83.2)
+|  |     |                                            |  |  |     +**MH030071|Brazil|NHP|2017-10-18
+|  |     |                                            |  +--| (88.4)
+|  |     |                                            |     |  +--MK583173|Brazil|Human|2018-02-23
+|  |     |                                            |     +--| (87.8)
+|  |     |                                            |        +--MH030074|Brazil|NHP|2017-10-18
+|  |     |                                         +**| (0)
+|  |     |                                         |  +--MK583172|Brazil|Human|2018-02-19
+|  |     |                                      +**| (0)
+|  |     |                                      |  |        +--MK583181|Brazil|Human|2018-03-27
+|  |     |                                      |  |     +**| (0)
+|  |     |                                      |  |     |  +--MK583176|Brazil|Human|2018-02-27
+|  |     |                                      |  |  +--| (91.9)
+|  |     |                                      |  |  |  |        +--MK583182|Brazil|Human|2018-03-14
+|  |     |                                      |  |  |  |     +**| (0)
+|  |     |                                      |  |  |  |     |  |  +**MK583175|Brazil|Human|2018-02-27
+|  |     |                                      |  |  |  |     |  +**| (0)
+|  |     |                                      |  |  |  |     |     +**MK583162|Brazil|Human|2018-01-31
+|  |     |                                      |  |  |  |  +--| (91.3)
+|  |     |                                      |  |  |  |  |  +--MH193174|Brazil|Human|2018-01-09
+|  |     |                                      |  |  |  +**| (0)
+|  |     |                                      |  |  |     +--MK583156|Brazil|Human|2018-01-23
+|  |     |                                      |  +**| (0)
+|  |     |                                      |     |  +--MK583177|Brazil|Human|2018-03-04
+|  |     |                                      |     +**| (0)
+|  |     |                                      |        +--MK583160|Brazil|Human|2018-01-29
+|  |     |                                   +--| (78.8)
+|  |     |                                   |  |     +--MK583179|Brazil|Human|2018-03-11
+|  |     |                                   |  |  +--| (80.1)
+|  |     |                                   |  |  |  +--MK583152|Brazil|Human|2017-01-16
+|  |     |                                   |  +--| (96)
+|  |     |                                   |     |  +--MK583178|Brazil|Human|2018-03-10
+|  |     |                                   |     +**| (0)
+|  |     |                                   |        +--MK583164|Brazil|Human|2018-02-03
+|  |     |                                +**| (0)
+|  |     |                                |  |  +--MH030058|Brazil|NHP|2017-09-26
+|  |     |                                |  +--| (0)
+|  |     |                                |     |        +--MH030091|Brazil|Human|2017-05-29
+|  |     |                                |     |     +--| (77.7)
+|  |     |                                |     |     |  +--MH030089|Brazil|Human|2017-05-03
+|  |     |                                |     |  +--| (80)
+|  |     |                                |     |  |  +--MH030090|Brazil|Human|2017-05-02
+|  |     |                                |     +**| (0)
+|  |     |                                |        |  +--MH018064|Brazil|NHP|2017-02-15
+|  |     |                                |        +**| (0)
+|  |     |                                |           |  +**MH018066|Brazil|NHP|2017-02-15
+|  |     |                                |           +--| (81.5)
+|  |     |                                |              +--MH018067|Brazil|NHP|2017-02-13
+|  |     |                             +**| (0)
+|  |     |                             |  +--MH030088|Brazil|Human|2017-05-03
+|  |     |                          +--| (95.6)
+|  |     |                          |  +--MH030087|Brazil|Human|2017-04-26
+|  |     |                       +--| (82.6)
+|  |     |                       |  |  +--MH193175|Brazil|NHP|2018-02-01
+|  |     |                       |  +**| (0)
+|  |     |                       |     |        +--MH030054|Brazil|NHP|2017-09-15
+|  |     |                       |     |     +**| (0)
+|  |     |                       |     |     |  +--MH030053|Brazil|NHP|2017-08-30
+|  |     |                       |     |  +--| (71.5)
+|  |     |                       |     |  |  |  +--MH030056|Brazil|NHP|2017-09-12
+|  |     |                       |     |  |  +--| (80.1)
+|  |     |                       |     |  |     +**MH030055|Brazil|NHP|2017-09-11
+|  |     |                       |     +**| (0)
+|  |     |                       |        +--MH030049|Brazil|NHP|2017-08-17
+|  |     |                    +**| (0)
+|  |     |                    |  |     +--MK583157|Brazil|Human|2018-01-23
+|  |     |                    |  |  +**| (0)
+|  |     |                    |  |  |  +--MK583148|Brazil|Human|2018-01-13
+|  |     |                    |  +--| (95.8)
+|  |     |                    |     +--MH030073|Brazil|NHP|2017-10-18
+|  |     |                 +**| (0)
+|  |     |                 |  |     +--MK583165|Brazil|Human|2018-02-04
+|  |     |                 |  |  +--| (88)
+|  |     |                 |  |  |  +--MK583158|Brazil|Human|2018-01-23
+|  |     |                 |  +**| (0)
+|  |     |                 |     +--MK583153|Brazil|Human|2018-01-20
+|  |     |              +**| (0)
+|  |     |              |  |     +--MK583167|Brazil|Human|2018-02-11
+|  |     |              |  |  +**| (0)
+|  |     |              |  |  |  +--MK583149|Brazil|Human|2018-01-16
+|  |     |              |  +**| (0)
+|  |     |              |     +--MK583166|Brazil|Human|2018-02-06
+|  |     |           +--| (85.6)
+|  |     |           |  |  +**MK583163|Brazil|Human|2018-02-02
+|  |     |           |  +--| (84.9)
+|  |     |           |     +--MK333799|Brazil|Human|2018-01-08
+|  |     |        +**| (0)
+|  |     |        |  |  +**MK583155|Brazil|Human|2018-01-22
+|  |     |        |  +**| (0)
+|  |     |        |     +**MK583147|Brazil|Human|2018-01-12
+|  |     |     +--| (74.6)
+|  |     |     |  +--MW308134|Brazil|Human|2018-10-26
+|  |     |  +--| (3.8)
+|  |     |  |  |        +**MK583151|Brazil|Human|2018-01-15
+|  |     |  |  |     +--| (91.3)
+|  |     |  |  |     |  +**MK333798|Brazil|Human|2018-01-08
+|  |     |  |  |  +--| (43)
+|  |     |  |  |  |  +**MH193173|Brazil|NHP|2018-01-09
+|  |     |  |  +**| (0)
+|  |     |  |     |        +--MH030060|Brazil|NHP|2017-09-27
+|  |     |  |     |     +--| (76.5)
+|  |     |  |     |     |  +**MH030061|Brazil|NHP|2017-09-21
+|  |     |  |     |  +--| (78.2)
+|  |     |  |     |  |  +--MH030062|Brazil|NHP|2017-09-19
+|  |     |  |     +**| (0)
+|  |     |  |        +**MH030050|Brazil|NHP|2017-08-16
+|  |     +--| (96.8)
+|  |        +--MH030059|Brazil|NHP|2017-09-21
++--| (95.8)
+|  |  +--MZ712141|Brazil|NHP|2021-02-03
+|  +**| (0)
+|     +--MZ712142|Brazil|NHP|2021-02-03
+|
++**MZ712136|Brazil|NHP|2021-02-08
+
+Tree in newick format:
+
+(MZ712135|Brazil|NHP|2021-03-08:0.0000010181,((((((((((((MZ712127|Brazil|NHP|2021-03-04:0.0002979144,MZ712132|Brazil|NHP|2021-02-24:0.0001000176)0:0.0000025556,(MZ712133|Brazil|NHP|2021-02-25:0.0000025636,MZ712134|Brazil|NHP|2021-02-25:0.0001990732)91.4:0.0001990594)0:0.0000024590,MZ712140|Brazil|NHP|2021-01-25:0.0000010181)0:0.0000010181,MZ712143|Brazil|NHP|2021-02-08:0.0000010181)0:0.0000020531,MZ712144|Brazil|NHP|2021-02-11:0.0002976731)83.9:0.0001000203,((MZ712138|Brazil|NHP|2021-03-03:0.0001000905,MZ712131|Brazil|NHP|2021-02-19:0.0001990733)89.9:0.0001991899,MZ712146|Brazil|NHP|2021-02-19:0.0001990509)0:0.0000024704)0:0.0000025620,MZ712128|Brazil|NHP|2021-02-22:0.0000010181)0:0.0000010181,(MZ712129|Brazil|NHP|2021-02-22:0.0000857142,MZ712130|Brazil|NHP|2021-02-22:0.0000010181)0:0.0000143162)77.6:0.0001000517,(MZ712137|Brazil|NHP|2021-02-26:0.0001000272,(MZ712149|Brazil|NHP|2021-02-24:0.0000999835,(MZ712147|Brazil|NHP|2021-02-22:0.0000028275,MZ712148|Brazil|NHP|2021-02-22:0.0001990462)40.5:0.0001000389)0:0.0000025737)90.5:0.0001991105)77:0.0001000365,MZ712139|Brazil|NHP|2021-02-20:0.0002977632)86.9:0.0001992507,((MZ712145|Brazil|NHP|2021-02-19:0.0014934096,MW308135|Brazil|Human|2019-01-20:0.0004938635)0:0.0000020856,((((((((((((((((((((((((((((((((((((((MN737509|Brazil|Unknown|2019-11-21:0.0018275961,MK882620|Brazil|Human|2018-02-05:0.0011058228)100:0.2838169652,((MW158340|Brazil|NHP|1968-06-06:0.0083122652,MW158338|Brazil|NHP|1955-01-21:0.0037111262)96:0.0022748267,MW158339|Brazil|NHP|1960-09-23:0.0115398034)100:0.0219284105)100:0.0294493008,(MW158344|Brazil|NHP|1985-06-16:0.0106852418,MW158343|Brazil|NHP|1973-02-16:0.0089040214)99.9:0.0031926272)51.6:0.0010836644,MW158341|Brazil|NHP|1991-06-21:0.0178327298)100:0.0071804678,(MW158347|Trinidad-and-Tobago|NHP|1989-02-22:0.0035628680,(MW158346|Trinidad-and-Tobago|NHP|1989-01-20:0.0000010181,MW158345|Trinidad-and-Tobago|NHP|1988-12-14:0.0001978762)100:0.0027874427)100:0.0054807361)98.3:0.0015439965,(MW158364|Trinidad-and-Tobago|NHP|2009-01-22:0.0000983277,(MW158366|Trinidad-and-Tobago|NHP|2009-01-16:0.0000984618,(MW158367|Trinidad-and-Tobago|NHP|2009-01-16:0.0000010181,MW158365|Trinidad-and-Tobago|NHP|2008-12-05:0.0000010181)85.1:0.0000984570)0:0.0000026283)100:0.0128916578)86:0.0008282982,(MF370545|Brazil|NHP|2017-04-05:0.0082891021,(((MH018101|Brazil|Human|2003-08-15:0.0006974259,MH018100|Brazil|Human|2003-03-15:0.0003983708)99.9:0.0016961175,MG969501|Brazil|Human|2001-03-07:0.0010076172)99.3:0.0010471547,MW158342|Brazil|NHP|2000-02-07:0.0007515341)99.9:0.0023382137)100:0.0062940344)100:0.0041661952,(MF370542|Brazil|NHP|2017-03-14:0.0004817441,MF370539|Brazil|NHP|2017-02-23:0.0001114100)100:0.0079054016)100:0.0034083646,(MK333803|Brazil|NHP|2017-04-20:0.0009048341,MF370543|Brazil|NHP|2017-03-03:0.0010811814)100:0.0077366127)42.5:0.0002128333,KY861728|Brazil|NHP|2008-02-09:0.0055473579)97.1:0.0009492540,MF370541|Brazil|NHP|2017-02-28:0.0079027214)98.8:0.0012070084,MF370540|Brazil|NHP|2017-02-25:0.0055345396)80.5:0.0003595646,MF370544|Brazil|NHP|2017-04-05:0.0044449506)100:0.0024311379,MF370546|Brazil|NHP|2017-04-05:0.0024053405)100:0.0024921465,(MH484431|Brazil|NHP|2017-02-14:0.0011920958,((((MH666058|Brazil|NHP|2016-12-19:0.0000020403,MH666056|Brazil|NHP|2016-11-16:0.0000010181)100:0.0049705134,MT497523|Brazil|NHP|2016-11-16:0.0003103556)51.6:0.0002050948,MT497524|Brazil|NHP|2016-12-12:0.0001176415)89.8:0.0003092187,MT497520|Brazil|NHP|2016-10-10:0.0001019010)97.7:0.0006735128)97.4:0.0006691503)0:0.0000186121,((((((((((((((MK533792|Brazil|NHP|2019-01-10:0.0010924669,(MK882600|Brazil|Human|2018-04-24:0.0000010181,MK882603|Brazil|Human|2018-04-24:0.0000020773)91.5:0.0002958387)96.6:0.0004976442,(MN643081|Brazil|Human|2018-02-19:0.0000988084,MN643082|Brazil|Human|2018-02-16:0.0001982020)94.3:0.0002960873)0:0.0000027189,MN506275|Brazil|Unknown|2017-05-05:0.0000026002)93.5:0.0000994864,(MN506266|Brazil|Unknown|2018-01-09:0.0000994888,MK333801|Brazil|NHP|2017-04-05:0.0002958717)0:0.0000010181)0:0.0000010181,((MN506278|Brazil|Unknown|2017-05-07:0.0000994906,MF423376|Brazil|NHP|2017-04-13:0.0000995093)0:0.0000010181,(MN643088|Brazil|NHP|2017-04-19:0.0000994909,(MK333802|Brazil|NHP|2017-04-05:0.0000025617,MF170974|Brazil|Human|2017-03-29:0.0001979243)86.4:0.0000994885)0:0.0000025528)0:0.0000010181)0:0.0000010181,MN643091|Brazil|NHP|2018-02-07:0.0000010181)0:0.0000010181,((((MN643086|Brazil|Human|2018-02-14:0.0002942068,MG550109|Brazil|Human|2017-04-18:0.0026801826)0:0.0000025400,MN506276|Brazil|Unknown|2017-05-05:0.0000994910)0:0.0000026422,(((MN643085|Brazil|Human|2018-02-11:0.0000994875,MF170972|Brazil|Human|2017-03-31:0.0001979579)0:0.0000010181,(MN643089|Brazil|NHP|2017-10-19:0.0004943441,MN506267|Brazil|Unknown|2017-05-08:0.0000995803)0:0.0000010181)0:0.0000010181,(((MF538786|Brazil|NHP|2017-06-05:0.0000994890,MF370547|Brazil|NHP|2017-03-27:0.0000994889)0:0.0000010181,(((((MN506280|Brazil|Unknown|2017-05-07:0.0000010181,MN506268|Brazil|Unknown|2017-05-05:0.0000010181)0:0.0000024523,MN506279|Brazil|Unknown|2017-05-04:0.0000010181)0:0.0000010181,MN506271|Brazil|Unknown|2017-05-05:0.0000995199)82.8:0.0000994913,MN506281|Brazil|Unknown|2017-04-26:0.0002959276)0:0.0000026669,((MN506269|Brazil|Unknown|2017-05-06:0.0000010181,MN506272|Brazil|Unknown|2017-05-06:0.0000010181)0:0.0000023433,MN506274|Brazil|Unknown|2017-05-06:0.0000010181)92.8:0.0000994861)0:0.0000021318)0:0.0000023238,MF170973|Brazil|Human|2017-04-10:0.0000010181)0:0.0000010181)0:0.0000010181)0:0.0000010181,(((MN643092|Brazil|NHP|2018-02-07:0.0001979645,MF170980|Brazil|Human|2017-03-23:0.0007922596)0:0.0000010181,MN506277|Brazil|Unknown|2017-05-05:0.0000994894)0:0.0000010181,MN506273|Brazil|Unknown|2017-05-05:0.0000010181)0:0.0000010181)0:0.0000010181)0:0.0000010181,MK583168|Brazil|Human|2018-02-11:0.0000010181)0:0.0000010181,((((MK882621|Brazil|Human|2018-02-05:0.0000010181,(((MK882617|Brazil|Human|2017-11-28:0.0002195498,MK882615|Brazil|Human|2017-03-27:0.0000010181)0:0.0000010181,MK882608|Brazil|Human|2017-03-12:0.0000010181)0:0.0000010181,(MK882613|Brazil|Human|2017-03-27:0.0000023202,MF185660|Brazil|NHP|2017-01-25:0.0000023930)92.9:0.0001963663)0:0.0000022801)0:0.0000025480,(MK882607|Brazil|Human|2017-03-09:0.0000010181,MK882611|Brazil|Human|2017-03-08:0.0000010181)0:0.0000024031)80.5:0.0001000979,MF434851|Brazil|Human|2017-04-25:0.0001964765)0:0.0000029292,(MH018112|Brazil|NHP|2017-04-17:0.0003071213,((MF170981|Brazil|Human|2017-04-05:0.0001979977,MF170970|Brazil|Human|2017-03-21:0.0001981192)0:0.0000027909,MF170969|Brazil|Human|2017-03-18:0.0001981361)0:0.0000685032)0:0.0000304033)0:0.0000022866)0:0.0000020801,(MN643087|Brazil|Human|2018-02-13:0.0001979548,(((((((MH018113|Brazil|Human|2017-04-22:0.0001023159,((MH018111|Brazil|Human|2017-04-10:0.0000026243,MH018110|Brazil|NHP|2017-03-09:0.0002902061)84.5:0.0001445301,MH018108|Brazil|Human|2017-03-10:0.0002400041)0:0.0000025094)82.3:0.0001022300,((MH018102|Brazil|NHP|2017-01-31:0.0002044762,((MH018103|Brazil|Human|2017-01-30:0.0006077338,MH018105|Brazil|Human|2017-01-28:0.0005105380)0:0.0000025565,MH018104|Brazil|Human|2017-01-30:0.0002106502)0:0.0000025565)0:0.0000027058,MH018106|Brazil|NHP|2017-01-13:0.0003062184)90.7:0.0002042574)0:0.0000029605,MH018109|Brazil|NHP|2017-03-08:0.0000026591)93.2:0.0004593821,(MN604282|Brazil|NHP|2017-03-16:0.0002458218,MN604283|Brazil|NHP|2017-03-15:0.0000021916)14.4:0.0001172471)0:0.0000021074,MN604281|Brazil|NHP|2017-03-13:0.0000024170)86.2:0.0001466170,MN604285|Brazil|NHP|2017-04-05:0.0000022870)81.7:0.0000997139,MN604286|Brazil|NHP|2017-04-07:0.0000023637)0:0.0000022218)88.3:0.0000994874)0:0.0000957255,MF538783|Brazil|Human|2017-03-18:0.0000989567)0:0.0000036869,MF370533|Brazil|Human|2017-01-11:0.0002960141)80.4:0.0000995509,(((((((((((MN643083|Brazil|Human|2018-02-25:0.0000025800,MN643084|Brazil|Human|2018-02-25:0.0001979171)94.4:0.0001979527,((((((MF370531|Brazil|Human|2017-02-28:0.0000020267,MH018107|Brazil|Human|2017-02-22:0.0000025513)91.4:0.0001979488,MF370530|Brazil|NHP|2017-01-15:0.0002958644)0:0.0000024949,MH018114|Brazil|NHP|2017-01-24:0.0001032675)0:0.0000010181,MF423374|Brazil|NHP|2017-02-23:0.0000010181)0:0.0000010181,MK333800|Brazil|NHP|2017-02-20:0.0000010181)0:0.0000020524,MF370537|Brazil|NHP|2017-01-17:0.0000989197)0:0.0000025415)82.9:0.0000989076,MK583154|Brazil|Human|2018-01-21:0.0008898839)0:0.0000023648,((((((((MN643080|Brazil|Human|2018-02-17:0.0001979680,(((MK333806|Brazil|NHP|2018-01-27:0.0001979684,MN506290|Brazil|Unknown|2018-01-18:0.0000994893)0:0.0000025714,(MK333809|Brazil|NHP|2018-01-19:0.0000010181,MK333807|Brazil|NHP|2018-01-18:0.0000010181)0:0.0000010181)0:0.0000025717,MN643077|Brazil|Human|2018-01-16:0.0001979688)84.3:0.0000994913)0:0.0000028410,MN506265|Brazil|Unknown|2017-12-19:0.0000010181)0:0.0000024760,MN643078|Brazil|Human|2018-01-25:0.0000994873)92.3:0.0001979547,((MK882619|Brazil|Human|2018-01-25:0.0003198899,MN604284|Brazil|Human|2017-03-15:0.0002069941)83.1:0.0003085163,MK882604|Brazil|Human|2017-02-16:0.0000990205)0:0.0000010181)0:0.0000023194,((MK333808|Brazil|NHP|2018-01-29:0.0003950292,(MF538785|Brazil|NHP|2017-04-21:0.0000025824,MF370548|Brazil|NHP|2017-04-20:0.0000024579)83.2:0.0000994827)0:0.0000021554,((((MN506289|Brazil|Unknown|2018-01-26:0.0000010181,MN506291|Brazil|Unknown|2018-01-26:0.0000010181)0:0.0000010181,MN506285|Brazil|Unknown|2018-01-24:0.0000010181)0:0.0000021790,MK882618|Brazil|Human|2018-01-22:0.0002147603)0:0.0000029365,MN506288|Brazil|Unknown|2018-01-24:0.0000025185)94.6:0.0002948856)0:0.0000024067)0:0.0000021461,MF423373|Brazil|NHP|2017-02-21:0.0000010181)0:0.0000010181,(MN643079|Brazil|Human|2018-01-26:0.0000010181,MF423378|Brazil|NHP|2017-04-19:0.0000010181)0:0.0000023098)0:0.0000010181,MF170975|Brazil|Human|2017-03-03:0.0002958517)85.1:0.0000994830)0:0.0000010181,(((MF170979|Brazil|Human|2017-04-06:0.0002959529,KY885001|Brazil|NHP|2017-02-22:0.0000994859)0:0.0000026651,MF170978|Brazil|Human|2017-03-28:0.0002960978)85.5:0.0000994748,MF538782|Brazil|Human|2017-03-16:0.0001979212)0:0.0000025325)0:0.0000023301,(MF170968|Brazil|Human|2017-04-13:0.0007922239,MF170976|Brazil|Human|2017-01-25:0.0001980553)74.2:0.0000994369)0:0.0000024575,(MF538784|Brazil|Human|2017-02-26:0.0000010181,MF170977|Brazil|Human|2017-02-10:0.0000010181)93.3:0.0001979394)78.6:0.0000994794,((((((((((((((MH329655|Brazil|NHP|2018-01-29:0.0001104596,(MK882599|Brazil|Human|2017-02-09:0.0002853010,MK882602|Brazil|Human|2017-01-31:0.0000010181)25.8:0.0002145911)0:0.0000022956,(MK882609|Brazil|Human|2017-03-13:0.0003301546,MH018085|Brazil|Human|2017-01-13:0.0000026070)72.2:0.0002406938)0:0.0000020162,MH018077|Brazil|Human|2017-01-07:0.0003174629)0:0.0000021293,MK882610|Brazil|Human|2017-03-06:0.0003297655)0:0.0000021473,(MH484424|Brazil|Human|2017-01-24:0.0001069676,MH018070|Brazil|Human|2017-01-21:0.0001088171)79.2:0.0001049236)0:0.0000022942,MH484428|Brazil|Human|2017-02-05:0.0003293441)0:0.0000025047,((((((((((MH018081|Brazil|NHP|2017-02-22:0.0007742382,MH018069|Brazil|Human|2017-01-14:0.0004835259)0:0.0000025563,MH018098|Brazil|NHP|2017-01-25:0.0006694672)91.4:0.0006939190,MH018088|Brazil|Human|2017-01-21:0.0003998704)0:0.0000024094,MH018072|Brazil|Human|2017-01-07:0.0000010181)0:0.0000023311,MH018087|Brazil|Human|2017-01-10:0.0000026862)85.4:0.0001808099,MH018073|Brazil|Human|2017-01-20:0.0003077776)0:0.0000026850,MH018089|Brazil|Human|2017-01-02:0.0003996682)0:0.0000027382,MH018084|Brazil|NHP|2017-02-09:0.0003995501)0:0.0000020353,MH018074|Brazil|Human|2017-01-14:0.0003080708)0:0.0000020168,(((((MH018071|Brazil|Human|2017-01-25:0.0004046437,MH018075|Brazil|Human|2017-01-18:0.0006357644)0:0.0000025752,MH018086|Brazil|Human|2017-01-19:0.0007009120)0:0.0000025324,MH018097|Brazil|NHP|2017-01-25:0.0002838873)85.2:0.0001413786,MH018093|Brazil|Human|2017-01-20:0.0000029225)96.4:0.0005935771,MH484432|Brazil|NHP|2017-01-23:0.0000027777)91.9:0.0002967810)91.2:0.0002970993)0:0.0000020724,MK882612|Brazil|Human|2017-03-20:0.0001116776)0:0.0000972749,((MH018083|Brazil|NHP|2017-02-17:0.0001997873,((MH018079|Brazil|Human|2017-01-28:0.0001984203,MH018096|Brazil|NHP|2017-01-13:0.0000025072)0:0.0000012609,MH018076|Brazil|Human|2017-01-19:0.0001004174)0:0.0000010562)0:0.0000964742,(MH018091|Brazil|Human|2017-01-30:0.0002990928,MH018078|Brazil|Human|2017-01-18:0.0001988084)77.5:0.0000989562)0:0.0000024676)74.5:0.0000985255,((MK882614|Brazil|Human|2017-04-17:0.0000027610,MK882616|Brazil|Human|2017-04-17:0.0000029510)89:0.0002631941,MH018068|Brazil|Human|2017-01-09:0.0000021351)0:0.0001004226)35.4:0.0000988863,(MH484423|Brazil|NHP|2017-01-24:0.0001871648,(MH484427|Brazil|NHP|2017-01-24:0.0000993954,(MH484434|Brazil|Human|2017-01-22:0.0005020958,(MH018095|Brazil|NHP|2017-01-19:0.0002377817,MH484426|Brazil|NHP|2017-01-13:0.0000023069)85.2:0.0001183504)0:0.0000025923)0:0.0000968547)0:0.0001402968)0:0.0000023439,((((MN604287|Brazil|NHP|2017-03-17:0.0001203257,MN604280|Brazil|NHP|2017-03-10:0.0000022864)27.8:0.0001183595,MH018099|Brazil|NHP|2017-03-10:0.0000026500)99.4:0.0008750869,MH484425|Brazil|Human|2017-01-27:0.0001028236)0:0.0000024873,MH018080|Brazil|Human|2017-01-28:0.0001985372)85:0.0000997393)0:0.0000022846,MH018092|Brazil|Human|2017-01-27:0.0000010181)0:0.0000023825,((MK882605|Brazil|Human|2017-03-09:0.0000010181,(MF185661|Brazil|Human|2017-02-23:0.0005782410,MK882601|Brazil|Human|2017-01-24:0.0002065693)0:0.0000022069)0:0.0001005020,((MK882606|Brazil|Human|2017-03-07:0.0000010181,MH018090|Brazil|Human|2017-01-12:0.0002625545)0:0.0000010181,MH018094|Brazil|Human|2017-01-30:0.0001228163)83.1:0.0001318484)0:0.0000023439)44.1:0.0000997324)0:0.0000026678,MF370534|Brazil|NHP|2016-04-05:0.0000994816)0:0.0000010181,MF370532|Brazil|Human|2017-01-10:0.0000010181)0:0.0000028365,((((MH484429|Brazil|NHP|2017-02-03:0.0000996597,MF465805|Brazil|Human|2017-01-17:0.0003706130)73.5:0.0001235858,MF370535|Brazil|NHP|2016-08-30:0.0000010181)0:0.0000022447,MF370536|Brazil|NHP|2016-09-02:0.0000994509)95.3:0.0002959163,MF370538|Brazil|NHP|2017-01-20:0.0000994813)0:0.0000022979)0:0.0000024071)88.8:0.0001984123,MF370549|Brazil|NHP|2015-08-26:0.0000985820)97.9:0.0005936281)97.1:0.0003966801,MK333804|Brazil|NHP|2015-08-17:0.0000984879)0:0.0000029931,MK728873|Brazil|Human|2017-03-04:0.0004932460)97.9:0.0004934261,((((MH018082|Brazil|NHP|2017-02-20:0.0002006679,MH018065|Brazil|NHP|2017-02-14:0.0000010181)0:0.0000020822,MH484433|Brazil|NHP|2017-02-03:0.0001173381)0:0.0001379401,MH484430|Brazil|NHP|2017-02-09:0.0002558653)80.8:0.0002010706,MF170971|Brazil|NHP|2017-01-30:0.0000987071)88.5:0.0001980575)0:0.0000025938,MH018115|Brazil|NHP|2017-01-24:0.0000028600)88.9:0.0001980961,(MN117917|Brazil|NHP|2017-02-15:0.0000020287,MT497521|Brazil|NHP|2016-10-13:0.0004962502)90.6:0.0001992203)78:0.0000985349,((MH666057|Brazil|NHP|2017-01-23:0.0042398605,MW034590|Brazil|NHP|2016-11-01:0.0000026962)0:0.0000025239,(MT497525|Brazil|NHP|2017-01-21:0.0004961056,MT497522|Brazil|NHP|2016-11-15:0.0000985736)62.6:0.0002981811)88.3:0.0001973258)0:0.0000025336,((((((MK583180|Brazil|Human|2018-03-14:0.0000994901,(MK583170|Brazil|Human|2018-02-18:0.0000994484,MK583150|Brazil|Human|2018-01-15:0.0000994474)0:0.0000023085)0:0.0000010181,MK583171|Brazil|Human|2018-02-18:0.0000010181)0:0.0000010181,MK583174|Brazil|Human|2018-02-24:0.0000010181)0:0.0000022287,MK583169|Brazil|Human|2018-02-18:0.0001979447)0:0.0000021065,((MH030070|Brazil|NHP|2017-10-19:0.0000023869,MH030057|Brazil|NHP|2017-09-27:0.0000010181)83:0.0001001362,MH030071|Brazil|NHP|2017-10-18:0.0000025811)83.2:0.0001001333)88.1:0.0001980009,(MK583173|Brazil|Human|2018-02-23:0.0001981340,MH030074|Brazil|NHP|2017-10-18:0.0001995885)87.8:0.0001980084)88.4:0.0001982416)86.9:0.0000994649,MK583172|Brazil|Human|2018-02-19:0.0001979620)0:0.0000023555,(((MK583181|Brazil|Human|2018-03-27:0.0001979447,MK583176|Brazil|Human|2018-02-27:0.0000994684)0:0.0000024925,(((MK583182|Brazil|Human|2018-03-14:0.0000994845,(MK583175|Brazil|Human|2018-02-27:0.0000010181,MK583162|Brazil|Human|2018-01-31:0.0000010181)0:0.0000010181)0:0.0000023531,MH193174|Brazil|Human|2018-01-09:0.0002982025)91.3:0.0001980026,MK583156|Brazil|Human|2018-01-23:0.0000994665)0:0.0000022891)91.9:0.0000994685,(MK583177|Brazil|Human|2018-03-04:0.0005925063,MK583160|Brazil|Human|2018-01-29:0.0001979420)0:0.0000021436)0:0.0000023575)0:0.0000025337,((MK583179|Brazil|Human|2018-03-11:0.0000994940,MK583152|Brazil|Human|2017-01-16:0.0000994888)80.1:0.0000995393,(MK583178|Brazil|Human|2018-03-10:0.0002959963,MK583164|Brazil|Human|2018-02-03:0.0000994604)0:0.0000021513)96:0.0002959986)78.8:0.0000996034,(MH030058|Brazil|NHP|2017-09-26:0.0004975230,(((MH030091|Brazil|Human|2017-05-29:0.0009818006,MH030089|Brazil|Human|2017-05-03:0.0001225040)77.7:0.0001191558,MH030090|Brazil|Human|2017-05-02:0.0002067964)80:0.0002057230,(MH018064|Brazil|NHP|2017-02-15:0.0003987991,(MH018066|Brazil|NHP|2017-02-15:0.0000010181,MH018067|Brazil|NHP|2017-02-13:0.0001002907)81.5:0.0001003343)0:0.0000028075)0:0.0000010458)0:0.0001950584)0:0.0000970683,MH030088|Brazil|Human|2017-05-03:0.0004810024)0:0.0000012448,MH030087|Brazil|Human|2017-04-26:0.0001033466)95.6:0.0002962542,(MH193175|Brazil|NHP|2018-02-01:0.0002001627,(((MH030054|Brazil|NHP|2017-09-15:0.0002987293,MH030053|Brazil|NHP|2017-08-30:0.0001995192)0:0.0000023579,(MH030056|Brazil|NHP|2017-09-12:0.0001996434,MH030055|Brazil|NHP|2017-09-11:0.0000023694)80.1:0.0001996654)71.5:0.0001001929,MH030049|Brazil|NHP|2017-08-17:0.0001004202)0:0.0000020206)0:0.0000024167)82.6:0.0000994203,((MK583157|Brazil|Human|2018-01-23:0.0004935688,MK583148|Brazil|Human|2018-01-13:0.0000994495)0:0.0000023918,MH030073|Brazil|NHP|2017-10-18:0.0001994871)95.8:0.0003948229)0:0.0000023575,((MK583165|Brazil|Human|2018-02-04:0.0001980540,MK583158|Brazil|Human|2018-01-23:0.0001981439)88:0.0001979751,MK583153|Brazil|Human|2018-01-20:0.0002959960)0:0.0000025522)0:0.0000010181,((MK583167|Brazil|Human|2018-02-11:0.0001979314,MK583149|Brazil|Human|2018-01-16:0.0001979326)0:0.0000025383,MK583166|Brazil|Human|2018-02-06:0.0000995282)0:0.0000010181)0:0.0000026815,(MK583163|Brazil|Human|2018-02-02:0.0000025531,MK333799|Brazil|Human|2018-01-08:0.0003948238)84.9:0.0000994717)85.6:0.0000994617,(MK583155|Brazil|Human|2018-01-22:0.0000010181,MK583147|Brazil|Human|2018-01-12:0.0000010181)0:0.0000023111)0:0.0000023572,MW308134|Brazil|Human|2018-10-26:0.0003947407)74.6:0.0000986780,(((MK583151|Brazil|Human|2018-01-15:0.0000025396,MK333798|Brazil|Human|2018-01-08:0.0000025854)91.3:0.0001978790,MH193173|Brazil|NHP|2018-01-09:0.0000029114)43:0.0000994424,(((MH030060|Brazil|NHP|2017-09-27:0.0001004508,MH030061|Brazil|NHP|2017-09-21:0.0000010181)76.5:0.0001004882,MH030062|Brazil|NHP|2017-09-19:0.0001997216)78.2:0.0001003582,MH030050|Brazil|NHP|2017-08-16:0.0000010181)0:0.0000025062)0:0.0000026087)3.8:0.0000995305,MH030059|Brazil|NHP|2017-09-21:0.0001005890)96.8:0.0003942073)99.2:0.0006966180)98.2:0.0005962372,(MZ712141|Brazil|NHP|2021-02-03:0.0000999731,MZ712142|Brazil|NHP|2021-02-03:0.0001989740)0:0.0000021274)95.8:0.0002975319,MZ712136|Brazil|NHP|2021-02-08:0.0000010181);
+
+TIME STAMP
+----------
+
+Date and time: Tue Sep 13 15:17:24 2022
+Total CPU time used: 4899.78 seconds (1h:21m:39s)
+Total wall-clock time used: 1253.43 seconds (0h:20m:53s)
+

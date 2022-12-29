@@ -1,0 +1,761 @@
+IQ-TREE multicore version 2.2.0.3 COVID-edition for Linux 64-bit built Aug  2 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    WPIA-DIDELT338 (AVX2, FMA3, 12 GB RAM)
+Command: iqtree -nt 4 -s NCBIVirus_YFVSelectAlignedTrimmedOutlierRemovedSeqs.fasta -m GTR+F+I+G4 -alrt 1000
+Seed:    547846 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Sep 13 14:56:30 2022
+Kernel:  AVX+FMA - 4 threads (8 CPU cores detected)
+
+Reading alignment file NCBIVirus_YFVSelectAlignedTrimmedOutlierRemovedSeqs.fasta ... Fasta format detected
+Reading fasta file: done in 0.175175 secs using 45.66% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0351096 secs using 125.4% CPU
+Alignment has 319 sequences with 10236 columns, 3763 distinct patterns
+1926 parsimony-informative, 640 singleton sites, 7670 constant sites
+                                             Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.002211 secs using 296.2% CPU
+   1  MZ712135|Brazil|NHP|2021-03-08                 0.63%    passed     99.88%
+   2  MZ712127|Brazil|NHP|2021-03-04                 0.63%    passed     99.95%
+   3  MZ712138|Brazil|NHP|2021-03-03                 0.63%    passed     99.99%
+   4  MZ712137|Brazil|NHP|2021-02-26                 0.63%    passed    100.00%
+   5  MZ712133|Brazil|NHP|2021-02-25                 0.63%    passed     99.98%
+   6  MZ712134|Brazil|NHP|2021-02-25                 0.63%    passed     99.99%
+   7  MZ712132|Brazil|NHP|2021-02-24                 0.63%    passed     99.98%
+   8  MZ712149|Brazil|NHP|2021-02-24                 0.63%    passed     99.98%
+   9  MZ712128|Brazil|NHP|2021-02-22                 0.63%    passed     99.97%
+  10  MZ712129|Brazil|NHP|2021-02-22                 0.63%    passed     99.95%
+  11  MZ712130|Brazil|NHP|2021-02-22                10.55%    passed     94.94%
+  12  MZ712147|Brazil|NHP|2021-02-22                 0.63%    passed     99.99%
+  13  MZ712148|Brazil|NHP|2021-02-22                 0.63%    passed     99.97%
+  14  MZ712139|Brazil|NHP|2021-02-20                 0.63%    passed     99.92%
+  15  MZ712131|Brazil|NHP|2021-02-19                 0.63%    passed     99.98%
+  16  MZ712145|Brazil|NHP|2021-02-19                 0.63%    passed     99.61%
+  17  MZ712146|Brazil|NHP|2021-02-19                 0.63%    passed     99.93%
+  18  MZ712144|Brazil|NHP|2021-02-11                 0.63%    passed     99.93%
+  19  MZ712136|Brazil|NHP|2021-02-08                 0.63%    passed     99.88%
+  20  MZ712143|Brazil|NHP|2021-02-08                 0.63%    passed     99.99%
+  21  MZ712141|Brazil|NHP|2021-02-03                 0.63%    passed     99.88%
+  22  MZ712142|Brazil|NHP|2021-02-03                 0.63%    passed     99.97%
+  23  MZ712140|Brazil|NHP|2021-01-25                 0.70%    passed     99.98%
+  24  MN737509|Brazil|Unknown|2019-11-21             0.02%    passed     75.27%
+  25  MW308135|Brazil|Human|2019-01-20               0.20%    passed     99.68%
+  26  MK533792|Brazil|NHP|2019-01-10                 0.00%    passed     99.81%
+  27  MW308134|Brazil|Human|2018-10-26               0.00%    passed     99.85%
+  28  MK882600|Brazil|Human|2018-04-24              10.03%    passed     96.36%
+  29  MK882603|Brazil|Human|2018-04-24               0.65%    passed     99.98%
+  30  MK583181|Brazil|Human|2018-03-27               0.00%    passed     99.94%
+  31  MK583180|Brazil|Human|2018-03-14               0.00%    passed     99.95%
+  32  MK583182|Brazil|Human|2018-03-14               0.00%    passed     99.89%
+  33  MK583179|Brazil|Human|2018-03-11               0.00%    passed     99.64%
+  34  MK583178|Brazil|Human|2018-03-10               0.00%    passed     99.90%
+  35  MK583177|Brazil|Human|2018-03-04               0.00%    passed     99.94%
+  36  MK583175|Brazil|Human|2018-02-27               0.00%    passed     99.81%
+  37  MK583176|Brazil|Human|2018-02-27               0.00%    passed     99.85%
+  38  MN643083|Brazil|Human|2018-02-25               0.00%    passed     99.95%
+  39  MN643084|Brazil|Human|2018-02-25               0.00%    passed     99.95%
+  40  MK583174|Brazil|Human|2018-02-24               0.00%    passed     99.95%
+  41  MK583173|Brazil|Human|2018-02-23               0.00%    passed     99.97%
+  42  MN643081|Brazil|Human|2018-02-19               0.00%    passed     99.95%
+  43  MK583172|Brazil|Human|2018-02-19               0.00%    passed     99.92%
+  44  MK583169|Brazil|Human|2018-02-18               0.00%    passed     99.99%
+  45  MK583170|Brazil|Human|2018-02-18               0.00%    passed     99.92%
+  46  MK583171|Brazil|Human|2018-02-18               0.00%    passed     99.95%
+  47  MN643080|Brazil|Human|2018-02-17               0.00%    passed     99.91%
+  48  MN643082|Brazil|Human|2018-02-16               0.00%    passed     99.99%
+  49  MN643086|Brazil|Human|2018-02-14               0.00%    passed     99.89%
+  50  MN643087|Brazil|Human|2018-02-13               0.00%    passed     99.96%
+  51  MN643085|Brazil|Human|2018-02-11               0.00%    passed     99.98%
+  52  MK583167|Brazil|Human|2018-02-11               0.00%    passed     99.82%
+  53  MK583168|Brazil|Human|2018-02-11               0.00%    passed     99.97%
+  54  MN643091|Brazil|NHP|2018-02-07                 0.00%    passed     99.97%
+  55  MN643092|Brazil|NHP|2018-02-07                 0.00%    passed     99.93%
+  56  MK333805|Brazil|NHP|2018-02-07                 0.00%    passed     99.97%
+  57  MK583166|Brazil|Human|2018-02-06               0.00%    passed     99.91%
+  58  MK882620|Brazil|Human|2018-02-05              32.81%    passed     63.27%
+  59  MK882621|Brazil|Human|2018-02-05               3.80%    passed     96.15%
+  60  MN643090|Brazil|NHP|2018-02-04                 0.00%    passed     99.97%
+  61  MK583165|Brazil|Human|2018-02-04               0.00%    passed     99.82%
+  62  MK583164|Brazil|Human|2018-02-03               0.00%    passed     99.90%
+  63  MK583163|Brazil|Human|2018-02-02               0.00%    passed     99.84%
+  64  MH193175|Brazil|NHP|2018-02-01                 0.84%    passed     99.82%
+  65  MK583162|Brazil|Human|2018-01-31               0.00%    passed     99.81%
+  66  MK583160|Brazil|Human|2018-01-29               0.00%    passed     99.95%
+  67  MK333808|Brazil|NHP|2018-01-29                 0.00%    passed     99.94%
+  68  MH329655|Brazil|NHP|2018-01-29                 9.74%    passed     98.04%
+  69  MK333806|Brazil|NHP|2018-01-27                 0.00%    passed     99.89%
+  70  MN643079|Brazil|Human|2018-01-26               0.00%    passed     99.98%
+  71  MN506289|Brazil|Unknown|2018-01-26             0.00%    passed     99.98%
+  72  MN506291|Brazil|Unknown|2018-01-26             0.00%    passed     99.98%
+  73  MN643078|Brazil|Human|2018-01-25               0.00%    passed     99.95%
+  74  MK882619|Brazil|Human|2018-01-25               6.90%    passed     99.70%
+  75  MN506284|Brazil|Unknown|2018-01-24             0.00%    passed     99.98%
+  76  MN506285|Brazil|Unknown|2018-01-24             0.02%    passed     99.96%
+  77  MN506286|Brazil|Unknown|2018-01-24             0.00%    passed     99.98%
+  78  MN506287|Brazil|Unknown|2018-01-24             0.00%    passed     99.98%
+  79  MN506288|Brazil|Unknown|2018-01-24             0.02%    passed     99.97%
+  80  MK583159|Brazil|Human|2018-01-24               0.00%    passed     99.95%
+  81  MK583161|Brazil|Human|2018-01-24               0.00%    passed     99.81%
+  82  MK583156|Brazil|Human|2018-01-23               0.00%    passed     99.95%
+  83  MK583157|Brazil|Human|2018-01-23               0.00%    passed     99.97%
+  84  MK583158|Brazil|Human|2018-01-23               0.00%    passed     99.62%
+  85  MK583155|Brazil|Human|2018-01-22               0.00%    passed     99.85%
+  86  MK882618|Brazil|Human|2018-01-22               6.99%    passed     99.66%
+  87  MK583154|Brazil|Human|2018-01-21               0.00%    passed    100.00%
+  88  MK583153|Brazil|Human|2018-01-20               0.00%    passed     99.76%
+  89  MK333809|Brazil|NHP|2018-01-19                 0.00%    passed     99.95%
+  90  MN506290|Brazil|Unknown|2018-01-18             0.00%    passed     99.95%
+  91  MK333807|Brazil|NHP|2018-01-18                 0.00%    passed     99.95%
+  92  MN643077|Brazil|Human|2018-01-16               0.00%    passed     99.90%
+  93  MK583149|Brazil|Human|2018-01-16               0.00%    passed     99.95%
+  94  MK583150|Brazil|Human|2018-01-15               0.00%    passed     99.95%
+  95  MK583151|Brazil|Human|2018-01-15               0.00%    passed     99.92%
+  96  MK583148|Brazil|Human|2018-01-13               0.00%    passed     99.89%
+  97  MK583147|Brazil|Human|2018-01-12               0.00%    passed     99.85%
+  98  MN506266|Brazil|Unknown|2018-01-09             0.00%    passed     99.98%
+  99  MH193173|Brazil|NHP|2018-01-09                 0.72%    passed     99.83%
+ 100  MH193174|Brazil|Human|2018-01-09               0.69%    passed     99.76%
+ 101  MK333798|Brazil|Human|2018-01-08               0.00%    passed     99.92%
+ 102  MK333799|Brazil|Human|2018-01-08               0.00%    passed     99.94%
+ 103  MN506265|Brazil|Unknown|2017-12-19             0.00%    passed     99.95%
+ 104  MK882617|Brazil|Human|2017-11-28               9.66%    passed     98.54%
+ 105  MN643089|Brazil|NHP|2017-10-19                 0.00%    passed     99.98%
+ 106  MH030070|Brazil|NHP|2017-10-19                 0.69%    passed     99.90%
+ 107  MH030071|Brazil|NHP|2017-10-18                 0.71%    passed     99.95%
+ 108  MH030073|Brazil|NHP|2017-10-18                 0.73%    passed     99.86%
+ 109  MH030074|Brazil|NHP|2017-10-18                 0.71%    passed     99.95%
+ 110  MH030057|Brazil|NHP|2017-09-27                 0.72%    passed     99.96%
+ 111  MH030060|Brazil|NHP|2017-09-27                 0.80%    passed     99.57%
+ 112  MH030058|Brazil|NHP|2017-09-26                 0.74%    passed     99.84%
+ 113  MH030059|Brazil|NHP|2017-09-21                 0.78%    passed     99.84%
+ 114  MH030061|Brazil|NHP|2017-09-21                 0.80%    passed     99.62%
+ 115  MH030062|Brazil|NHP|2017-09-19                 0.75%    passed     99.58%
+ 116  MH030054|Brazil|NHP|2017-09-15                 0.75%    passed     99.66%
+ 117  MH030056|Brazil|NHP|2017-09-12                 0.74%    passed     99.84%
+ 118  MH030055|Brazil|NHP|2017-09-11                 0.74%    passed     99.81%
+ 119  MH030053|Brazil|NHP|2017-08-30                 0.71%    passed     99.71%
+ 120  MH030049|Brazil|NHP|2017-08-17                 0.78%    passed     99.94%
+ 121  MH030050|Brazil|NHP|2017-08-16                 0.74%    passed     99.83%
+ 122  MF538786|Brazil|NHP|2017-06-05                 0.00%    passed     99.98%
+ 123  MH030091|Brazil|Human|2017-05-29              58.90%    passed     76.72%
+ 124  MN506267|Brazil|Unknown|2017-05-08             0.03%    passed     99.95%
+ 125  MN506282|Brazil|Unknown|2017-05-08             0.00%    passed     99.97%
+ 126  MN506278|Brazil|Unknown|2017-05-07             0.00%    passed     99.96%
+ 127  MN506280|Brazil|Unknown|2017-05-07             0.00%    passed     99.96%
+ 128  MN506269|Brazil|Unknown|2017-05-06             0.00%    passed     99.98%
+ 129  MN506272|Brazil|Unknown|2017-05-06             0.00%    passed     99.98%
+ 130  MN506274|Brazil|Unknown|2017-05-06             0.01%    passed     99.96%
+ 131  MK089775|Brazil|NHP|2017-05-06                 0.00%    passed     99.98%
+ 132  MN506268|Brazil|Unknown|2017-05-05             0.01%    passed     99.95%
+ 133  MN506270|Brazil|Unknown|2017-05-05             0.00%    passed     99.98%
+ 134  MN506271|Brazil|Unknown|2017-05-05             0.02%    passed     99.88%
+ 135  MN506273|Brazil|Unknown|2017-05-05             0.01%    passed     99.97%
+ 136  MN506275|Brazil|Unknown|2017-05-05             0.00%    passed     99.99%
+ 137  MN506276|Brazil|Unknown|2017-05-05             0.00%    passed     99.96%
+ 138  MN506277|Brazil|Unknown|2017-05-05             0.00%    passed     99.96%
+ 139  MN506283|Brazil|Unknown|2017-05-05             0.00%    passed     99.97%
+ 140  MN506279|Brazil|Unknown|2017-05-04             0.00%    passed     99.96%
+ 141  MH030088|Brazil|Human|2017-05-03              18.23%    passed     95.19%
+ 142  MH030089|Brazil|Human|2017-05-03              19.21%    passed     57.83%
+ 143  MH030090|Brazil|Human|2017-05-02               3.79%    passed     97.17%
+ 144  MN506281|Brazil|Unknown|2017-04-26             0.00%    passed     99.91%
+ 145  MH030087|Brazil|Human|2017-04-26               3.88%    passed     97.39%
+ 146  MF434851|Brazil|Human|2017-04-25               0.00%    passed     99.98%
+ 147  MH018113|Brazil|Human|2017-04-22               3.16%    passed     98.04%
+ 148  MF538785|Brazil|NHP|2017-04-21                 0.00%    passed     99.98%
+ 149  MK333803|Brazil|NHP|2017-04-20                 0.00%    passed     98.58%
+ 150  MF370548|Brazil|NHP|2017-04-20                 0.00%    passed     99.98%
+ 151  MN643088|Brazil|NHP|2017-04-19                 0.00%    passed     99.96%
+ 152  MF423377|Brazil|NHP|2017-04-19                 0.00%    passed     99.98%
+ 153  MG550109|Brazil|Human|2017-04-18              14.14%    passed     63.21%
+ 154  MF423378|Brazil|NHP|2017-04-19                 0.01%    passed     99.98%
+ 155  MK882614|Brazil|Human|2017-04-17              27.03%    passed     43.48%
+ 156  MK882616|Brazil|Human|2017-04-17              42.11%    passed     19.88%
+ 157  MH018112|Brazil|NHP|2017-04-17                 3.32%    passed     99.33%
+ 158  MF170968|Brazil|Human|2017-04-13               0.08%    passed     99.97%
+ 159  MF423376|Brazil|NHP|2017-04-13                 0.01%    passed     99.96%
+ 160  MH018111|Brazil|Human|2017-04-10              18.30%    passed     99.00%
+ 161  MF170973|Brazil|Human|2017-04-10               0.02%    passed     99.97%
+ 162  MN604286|Brazil|NHP|2017-04-07                 3.75%    passed     95.90%
+ 163  MF170979|Brazil|Human|2017-04-06               0.00%    passed     99.97%
+ 164  MN604285|Brazil|NHP|2017-04-05                 0.66%    passed     99.97%
+ 165  MK333801|Brazil|NHP|2017-04-05                 0.00%    passed     99.95%
+ 166  MK333802|Brazil|NHP|2017-04-05                 0.00%    passed     99.99%
+ 167  MF370544|Brazil|NHP|2017-04-05                 0.00%    passed     99.91%
+ 168  MF370545|Brazil|NHP|2017-04-05                 0.00%    passed     98.83%
+ 169  MF370546|Brazil|NHP|2017-04-05                 0.00%    passed     99.98%
+ 170  MF170981|Brazil|Human|2017-04-05               0.01%    passed     99.98%
+ 171  MF423375|Brazil|NHP|2017-04-04                 0.00%    passed     99.97%
+ 172  MF170972|Brazil|Human|2017-03-31               0.00%    passed     99.97%
+ 173  MF170974|Brazil|Human|2017-03-29               0.03%    passed     99.98%
+ 174  MF170978|Brazil|Human|2017-03-28               0.03%    passed     99.98%
+ 175  MK882613|Brazil|Human|2017-03-27               4.05%    passed     99.18%
+ 176  MK882615|Brazil|Human|2017-03-27              20.16%    passed     95.44%
+ 177  MF370547|Brazil|NHP|2017-03-27                 0.00%    passed     99.98%
+ 178  MF170980|Brazil|Human|2017-03-23               0.04%    passed     99.98%
+ 179  MF170970|Brazil|Human|2017-03-21               0.05%    passed     99.98%
+ 180  MK882612|Brazil|Human|2017-03-20              10.60%    passed     99.16%
+ 181  MF170969|Brazil|Human|2017-03-18               0.05%    passed     99.94%
+ 182  MF538783|Brazil|Human|2017-03-18               0.02%    passed     99.96%
+ 183  MN604287|Brazil|NHP|2017-03-17                 8.18%    passed     99.88%
+ 184  MN604282|Brazil|NHP|2017-03-16                18.99%    passed     91.94%
+ 185  MF538782|Brazil|Human|2017-03-16               0.00%    passed     99.98%
+ 186  MN604283|Brazil|NHP|2017-03-15                15.23%    passed     97.29%
+ 187  MN604284|Brazil|Human|2017-03-15               3.77%    passed     94.92%
+ 188  MF370542|Brazil|NHP|2017-03-14                 0.00%    passed     99.69%
+ 189  MN604281|Brazil|NHP|2017-03-13                17.39%    passed     96.32%
+ 190  MK882609|Brazil|Human|2017-03-13              21.77%    passed     79.16%
+ 191  MK882608|Brazil|Human|2017-03-12              17.48%    passed     83.48%
+ 192  MN604280|Brazil|NHP|2017-03-10                 6.96%    passed     99.90%
+ 193  MH018099|Brazil|NHP|2017-03-10                 0.74%    passed     99.97%
+ 194  MH018108|Brazil|Human|2017-03-10              18.09%    passed     99.16%
+ 195  MK882605|Brazil|Human|2017-03-09              47.24%    passed     18.91%
+ 196  MK882607|Brazil|Human|2017-03-09               0.69%    passed     99.99%
+ 197  MH018110|Brazil|NHP|2017-03-09                 9.36%    passed     91.69%
+ 198  MK882611|Brazil|Human|2017-03-08               0.69%    passed     99.99%
+ 199  MH018109|Brazil|NHP|2017-03-08                 3.15%    passed     98.25%
+ 200  MK882606|Brazil|Human|2017-03-07              36.33%    passed     21.22%
+ 201  MK882610|Brazil|Human|2017-03-06               9.64%    passed     98.52%
+ 202  MK728873|Brazil|Human|2017-03-04               0.00%    passed     99.93%
+ 203  MF370543|Brazil|NHP|2017-03-03                 0.00%    passed     98.93%
+ 204  MF170975|Brazil|Human|2017-03-03               0.00%    passed     99.99%
+ 205  MF370531|Brazil|Human|2017-02-28               0.00%    passed     99.97%
+ 206  MF370541|Brazil|NHP|2017-02-28                 0.00%    passed     99.17%
+ 207  MF538784|Brazil|Human|2017-02-26               0.00%    passed     99.97%
+ 208  MF370540|Brazil|NHP|2017-02-25                 0.00%    passed     99.67%
+ 209  MF370539|Brazil|NHP|2017-02-23                 0.00%    passed     99.90%
+ 210  MF185661|Brazil|Human|2017-02-23              31.68%    passed     64.24%
+ 211  MF423374|Brazil|NHP|2017-02-23                 0.00%    passed     99.99%
+ 212  MH018081|Brazil|NHP|2017-02-22                42.30%    passed     81.91%
+ 213  MH018107|Brazil|Human|2017-02-22               2.91%    passed     98.58%
+ 214  KY885001|Brazil|NHP|2017-02-22                 0.00%    passed     99.98%
+ 215  MF423373|Brazil|NHP|2017-02-21                 0.00%    passed     99.98%
+ 216  MK333800|Brazil|NHP|2017-02-20                 0.00%    passed     99.99%
+ 217  MH018082|Brazil|NHP|2017-02-20                 0.44%    passed     99.96%
+ 218  KY885000|Brazil|NHP|2017-02-20                 0.00%    passed     99.99%
+ 219  MH018083|Brazil|NHP|2017-02-17                 0.37%    passed    100.00%
+ 220  MK882604|Brazil|Human|2017-02-16               0.69%    passed     99.98%
+ 221  MN117917|Brazil|NHP|2017-02-15                 0.64%    passed     99.93%
+ 222  MH018064|Brazil|NHP|2017-02-15                 0.36%    passed     99.99%
+ 223  MH018066|Brazil|NHP|2017-02-15                 0.41%    passed     99.99%
+ 224  MH484431|Brazil|NHP|2017-02-14                 7.85%    passed     86.95%
+ 225  MH018065|Brazil|NHP|2017-02-14                 0.38%    passed     99.99%
+ 226  MH018067|Brazil|NHP|2017-02-13                 0.39%    passed    100.00%
+ 227  MF170977|Brazil|Human|2017-02-10               0.02%    passed     99.98%
+ 228  MK882599|Brazil|Human|2017-02-09              25.32%    passed     54.95%
+ 229  MH484430|Brazil|NHP|2017-02-09                 0.95%    passed     99.98%
+ 230  MH018084|Brazil|NHP|2017-02-09                 0.41%    passed     99.99%
+ 231  MH484428|Brazil|Human|2017-02-05               9.63%    passed     98.81%
+ 232  MH484429|Brazil|NHP|2017-02-03                 0.72%    passed     99.99%
+ 233  MH484433|Brazil|NHP|2017-02-03                14.69%    passed     97.28%
+ 234  MK882602|Brazil|Human|2017-01-31              28.81%    passed     19.54%
+ 235  MH018102|Brazil|NHP|2017-01-31                 2.97%    passed     98.19%
+ 236  MH018091|Brazil|Human|2017-01-30               0.37%    passed     99.99%
+ 237  MH018094|Brazil|Human|2017-01-30              18.50%    passed     86.57%
+ 238  MH018103|Brazil|Human|2017-01-30              18.67%    passed     98.82%
+ 239  MH018104|Brazil|Human|2017-01-30               6.11%    passed     99.42%
+ 240  MF170971|Brazil|NHP|2017-01-30                 0.02%    passed     99.99%
+ 241  MH018079|Brazil|Human|2017-01-28               0.22%    passed     99.99%
+ 242  MH018080|Brazil|Human|2017-01-28               0.22%    passed     99.99%
+ 243  MH018105|Brazil|Human|2017-01-28               3.54%    passed     98.89%
+ 244  MH484425|Brazil|Human|2017-01-27               3.83%    passed     96.95%
+ 245  MH018092|Brazil|Human|2017-01-27               0.28%    passed    100.00%
+ 246  MH018071|Brazil|Human|2017-01-25              48.78%    passed     34.02%
+ 247  MH018097|Brazil|NHP|2017-01-25                 6.91%    passed     96.12%
+ 248  MH018098|Brazil|NHP|2017-01-25                25.62%    passed     39.32%
+ 249  MF170976|Brazil|Human|2017-01-25               0.01%    passed     99.98%
+ 250  MF185660|Brazil|NHP|2017-01-25                22.19%    passed     58.73%
+ 251  MK882601|Brazil|Human|2017-01-24               3.83%    passed     96.92%
+ 252  MH484423|Brazil|NHP|2017-01-24                45.72%    passed     83.06%
+ 253  MH484424|Brazil|Human|2017-01-24               6.86%    passed     99.26%
+ 254  MH484427|Brazil|NHP|2017-01-24                 0.73%    passed     99.98%
+ 255  MH018114|Brazil|NHP|2017-01-24                 3.46%    passed     97.02%
+ 256  MH018115|Brazil|NHP|2017-01-24                 1.89%    passed     98.22%
+ 257  MH666057|Brazil|NHP|2017-01-23                 0.50%    passed     99.59%
+ 258  MH484432|Brazil|NHP|2017-01-23                11.27%    passed     88.90%
+ 259  MH484434|Brazil|Human|2017-01-22               1.30%    passed     99.90%
+ 260  MT497525|Brazil|NHP|2017-01-21                 0.63%    passed     99.97%
+ 261  MH018070|Brazil|Human|2017-01-21               8.56%    passed     98.66%
+ 262  MH018088|Brazil|Human|2017-01-21               0.42%    passed     99.96%
+ 263  MF370538|Brazil|NHP|2017-01-20                 0.00%    passed    100.00%
+ 264  MH018073|Brazil|Human|2017-01-20               3.02%    passed     99.05%
+ 265  MH018093|Brazil|Human|2017-01-20               0.22%    passed     99.98%
+ 266  MH018076|Brazil|Human|2017-01-19               0.36%    passed     99.97%
+ 267  MH018086|Brazil|Human|2017-01-19              43.69%    passed     64.46%
+ 268  MH018095|Brazil|NHP|2017-01-19                 0.22%    passed    100.00%
+ 269  MH018075|Brazil|Human|2017-01-18              38.89%    passed     44.25%
+ 270  MH018078|Brazil|Human|2017-01-18               0.22%    passed     99.98%
+ 271  MF370537|Brazil|NHP|2017-01-17                 0.00%    passed     99.99%
+ 272  MF465805|Brazil|Human|2017-01-17               0.00%    passed     99.93%
+ 273  MK583152|Brazil|Human|2017-01-16               0.00%    passed     99.64%
+ 274  MF370530|Brazil|NHP|2017-01-15                 0.00%    passed     99.96%
+ 275  MH018069|Brazil|Human|2017-01-14              41.58%    passed     39.50%
+ 276  MH018074|Brazil|Human|2017-01-14               3.07%    passed     96.77%
+ 277  MH484426|Brazil|NHP|2017-01-13                 4.76%    passed     95.36%
+ 278  MH018085|Brazil|Human|2017-01-13               3.02%    passed     98.72%
+ 279  MH018096|Brazil|NHP|2017-01-13                 0.22%    passed    100.00%
+ 280  MH018106|Brazil|NHP|2017-01-13                 3.02%    passed     98.60%
+ 281  MH018090|Brazil|Human|2017-01-12               0.22%    passed    100.00%
+ 282  MF370533|Brazil|Human|2017-01-11               0.00%    passed     99.98%
+ 283  MF370532|Brazil|Human|2017-01-10               0.00%    passed     99.99%
+ 284  MH018087|Brazil|Human|2017-01-10               5.67%    passed     99.51%
+ 285  MH018068|Brazil|Human|2017-01-09               2.87%    passed     99.05%
+ 286  MH018072|Brazil|Human|2017-01-07               2.99%    passed     99.09%
+ 287  MH018077|Brazil|Human|2017-01-07               5.69%    passed     99.10%
+ 288  MH018089|Brazil|Human|2017-01-02               0.42%    passed     99.98%
+ 289  MH666058|Brazil|NHP|2016-12-19                 0.01%    passed     99.03%
+ 290  MT497524|Brazil|NHP|2016-12-12                13.90%    passed     87.72%
+ 291  MT497523|Brazil|NHP|2016-11-16                 3.69%    passed     98.00%
+ 292  MH666056|Brazil|NHP|2016-11-16                 0.01%    passed     99.03%
+ 293  MT497522|Brazil|NHP|2016-11-15                 0.63%    passed     99.97%
+ 294  MW034590|Brazil|NHP|2016-11-01                 0.00%    passed     99.98%
+ 295  MT497521|Brazil|NHP|2016-10-13                 0.64%    passed     99.92%
+ 296  MT497520|Brazil|NHP|2016-10-10                 3.69%    passed     97.91%
+ 297  MF370536|Brazil|NHP|2016-09-02                 0.00%    passed     99.92%
+ 298  MF370535|Brazil|NHP|2016-08-30                 0.00%    passed     99.95%
+ 299  MF370534|Brazil|NHP|2016-04-05                 0.00%    passed    100.00%
+ 300  MF370549|Brazil|NHP|2015-08-26                 0.00%    passed     99.98%
+ 301  MK333804|Brazil|NHP|2015-08-17                 0.00%    passed     99.98%
+ 302  MW158364|Trinidad-and-Tobago|NHP|2009-01-22    0.00%    passed     99.25%
+ 303  MW158366|Trinidad-and-Tobago|NHP|2009-01-16    0.00%    passed     99.16%
+ 304  MW158367|Trinidad-and-Tobago|NHP|2009-01-16    0.00%    passed     99.40%
+ 305  MW158365|Trinidad-and-Tobago|NHP|2008-12-05    0.00%    passed     99.40%
+ 306  KY861728|Brazil|NHP|2008-02-09                 0.05%    passed     99.75%
+ 307  MH018101|Brazil|Human|2003-08-15               0.71%    passed    100.00%
+ 308  MH018100|Brazil|Human|2003-03-15               0.71%    passed     99.99%
+ 309  MG969501|Brazil|Human|2001-03-07               0.00%    passed     99.64%
+ 310  MW158342|Brazil|NHP|2000-02-07                 0.00%    passed     99.92%
+ 311  MW158341|Brazil|NHP|1991-06-21                 0.00%    passed     97.11%
+ 312  MW158347|Trinidad-and-Tobago|NHP|1989-02-22    0.00%    passed     99.68%
+ 313  MW158346|Trinidad-and-Tobago|NHP|1989-01-20    0.00%    passed     99.60%
+ 314  MW158345|Trinidad-and-Tobago|NHP|1988-12-14    0.00%    passed     99.58%
+ 315  MW158344|Brazil|NHP|1985-06-16                 0.00%    passed     93.30%
+ 316  MW158343|Brazil|NHP|1973-02-16                 0.00%    passed     83.98%
+ 317  MW158340|Brazil|NHP|1968-06-06                 0.00%    passed     86.59%
+ 318  MW158339|Brazil|NHP|1960-09-23                 0.00%    passed     91.79%
+ 319  MW158338|Brazil|NHP|1955-01-21                 0.00%    passed     71.00%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                          3.77%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: MZ712136|Brazil|NHP|2021-02-08 is identical to MZ712135|Brazil|NHP|2021-03-08 but kept for subsequent analysis
+NOTE: MK583162|Brazil|Human|2018-01-31 is identical to MK583175|Brazil|Human|2018-02-27 but kept for subsequent analysis
+NOTE: MK583171|Brazil|Human|2018-02-18 is identical to MK583174|Brazil|Human|2018-02-24 but kept for subsequent analysis
+NOTE: MN643091|Brazil|NHP|2018-02-07 is identical to MK583168|Brazil|Human|2018-02-11 but kept for subsequent analysis
+NOTE: MF423373|Brazil|NHP|2017-02-21 is identical to MN643079|Brazil|Human|2018-01-26 but kept for subsequent analysis
+NOTE: MN506291|Brazil|Unknown|2018-01-26 is identical to MN506289|Brazil|Unknown|2018-01-26 but kept for subsequent analysis
+NOTE: MK583147|Brazil|Human|2018-01-12 is identical to MK583155|Brazil|Human|2018-01-22 but kept for subsequent analysis
+NOTE: MK333807|Brazil|NHP|2018-01-18 is identical to MK333809|Brazil|NHP|2018-01-19 but kept for subsequent analysis
+NOTE: MK333798|Brazil|Human|2018-01-08 is identical to MK583151|Brazil|Human|2018-01-15 but kept for subsequent analysis
+NOTE: MN506279|Brazil|Unknown|2017-05-04 is identical to MN506280|Brazil|Unknown|2017-05-07 but kept for subsequent analysis
+NOTE: MN506272|Brazil|Unknown|2017-05-06 is identical to MN506269|Brazil|Unknown|2017-05-06 but kept for subsequent analysis
+NOTE: MF370548|Brazil|NHP|2017-04-20 is identical to MF538785|Brazil|NHP|2017-04-21 but kept for subsequent analysis
+NOTE: MK882611|Brazil|Human|2017-03-08 is identical to MK882607|Brazil|Human|2017-03-09 but kept for subsequent analysis
+NOTE: MK333800|Brazil|NHP|2017-02-20 is identical to MF423374|Brazil|NHP|2017-02-23 but kept for subsequent analysis
+NOTE: MH666056|Brazil|NHP|2016-11-16 is identical to MH666058|Brazil|NHP|2016-12-19 but kept for subsequent analysis
+NOTE: MW158365|Trinidad-and-Tobago|NHP|2008-12-05 is identical to MW158367|Trinidad-and-Tobago|NHP|2009-01-16 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.0188497 secs using 155.2% CPU
+Identifying sites to remove: done in 0.0280548 secs using 55.88% CPU
+NOTE: 14 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: MK583161|Brazil|Human|2018-01-24 (identical to MK583175|Brazil|Human|2018-02-27) is ignored but added at the end
+NOTE: MK583159|Brazil|Human|2018-01-24 (identical to MK583174|Brazil|Human|2018-02-24) is ignored but added at the end
+NOTE: MK333805|Brazil|NHP|2018-02-07 (identical to MK583168|Brazil|Human|2018-02-11) is ignored but added at the end
+NOTE: MN643090|Brazil|NHP|2018-02-04 (identical to MK583168|Brazil|Human|2018-02-11) is ignored but added at the end
+NOTE: MN506282|Brazil|Unknown|2017-05-08 (identical to MK583168|Brazil|Human|2018-02-11) is ignored but added at the end
+NOTE: MN506283|Brazil|Unknown|2017-05-05 (identical to MK583168|Brazil|Human|2018-02-11) is ignored but added at the end
+NOTE: MF423375|Brazil|NHP|2017-04-04 (identical to MK583168|Brazil|Human|2018-02-11) is ignored but added at the end
+NOTE: MN506284|Brazil|Unknown|2018-01-24 (identical to MN506289|Brazil|Unknown|2018-01-26) is ignored but added at the end
+NOTE: MN506286|Brazil|Unknown|2018-01-24 (identical to MN506289|Brazil|Unknown|2018-01-26) is ignored but added at the end
+NOTE: MN506287|Brazil|Unknown|2018-01-24 (identical to MN506289|Brazil|Unknown|2018-01-26) is ignored but added at the end
+NOTE: MK089775|Brazil|NHP|2017-05-06 (identical to MN506269|Brazil|Unknown|2017-05-06) is ignored but added at the end
+NOTE: MN506270|Brazil|Unknown|2017-05-05 (identical to MN506269|Brazil|Unknown|2017-05-06) is ignored but added at the end
+NOTE: MF423377|Brazil|NHP|2017-04-19 (identical to MF538785|Brazil|NHP|2017-04-21) is ignored but added at the end
+NOTE: KY885000|Brazil|NHP|2017-02-20 (identical to MF423374|Brazil|NHP|2017-02-23) is ignored but added at the end
+Alignment was printed to NCBIVirus_YFVSelectAlignedTrimmedOutlierRemovedSeqs.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to NCBIVirus_YFVSelectAlignedTrimmedOutlierRemovedSeqs.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.115 seconds
+
+NOTE: 149 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.214 / LogL: -38656.591
+Init pinv, alpha: 0.083, 1.000 / Estimate: 0.085, 0.255 / LogL: -38650.686
+Init pinv, alpha: 0.167, 1.000 / Estimate: 0.170, 0.309 / LogL: -38645.112
+Init pinv, alpha: 0.250, 1.000 / Estimate: 0.255, 0.384 / LogL: -38639.669
+Init pinv, alpha: 0.333, 1.000 / Estimate: 0.467, 0.813 / LogL: -38624.734
+Init pinv, alpha: 0.416, 1.000 / Estimate: 0.464, 0.799 / LogL: -38625.248
+Init pinv, alpha: 0.500, 1.000 / Estimate: 0.502, 0.973 / LogL: -38623.235
+Init pinv, alpha: 0.583, 1.000 / Estimate: 0.572, 1.573 / LogL: -38622.849
+Init pinv, alpha: 0.666, 1.000 / Estimate: 0.573, 1.578 / LogL: -38623.507
+Init pinv, alpha: 0.749, 1.000 / Estimate: 0.575, 1.609 / LogL: -38624.674
+Optimal pinv,alpha: 0.572, 1.573 / LogL: -38622.849
+
+Parameters optimization took 155.074 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.481911 secs using 402.6% CPU
+Computing ML distances took 0.487780 sec (of wall-clock time) 1.946381 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.0018152 secs
+Constructing RapidNJ tree: done in 0.254447 secs using 24.34% CPU
+Computing RapidNJ tree took 0.257133 sec (of wall-clock time) 0.061959 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -38795.984
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 16.453 second
+Computing log-likelihood of 98 initial trees ... 15.524 seconds
+Current best score: -38604.895
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 2.79187 secs using 398.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -38578.075
+Optimizing NNI: done in 3.27864 secs using 398.4% CPU
+Optimizing NNI: done in 2.99021 secs using 398.2% CPU
+Optimizing NNI: done in 2.63489 secs using 397.5% CPU
+Optimizing NNI: done in 2.48266 secs using 398% CPU
+Optimizing NNI: done in 3.78698 secs using 398.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -38566.738
+Optimizing NNI: done in 3.11421 secs using 397.3% CPU
+Optimizing NNI: done in 2.97685 secs using 395.2% CPU
+Optimizing NNI: done in 2.794 secs using 398.4% CPU
+Optimizing NNI: done in 2.32382 secs using 398.9% CPU
+Iteration 10 / LogL: -38598.931 / Time: 0h:3m:41s
+Optimizing NNI: done in 2.69929 secs using 399.3% CPU
+Optimizing NNI: done in 3.06668 secs using 399.2% CPU
+Optimizing NNI: done in 2.45475 secs using 394.5% CPU
+Optimizing NNI: done in 2.74269 secs using 396.5% CPU
+Optimizing NNI: done in 2.42076 secs using 399.4% CPU
+Optimizing NNI: done in 2.99733 secs using 398.6% CPU
+Optimizing NNI: done in 2.9971 secs using 399.3% CPU
+Optimizing NNI: done in 2.73697 secs using 397.7% CPU
+Optimizing NNI: done in 2.95963 secs using 398.7% CPU
+Optimizing NNI: done in 3.15641 secs using 397.9% CPU
+Iteration 20 / LogL: -38603.765 / Time: 0h:4m:10s
+Finish initializing candidate tree set (20)
+Current best tree score: -38566.738 / CPU time: 91.873
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 4.61218 secs using 399.1% CPU
+Optimizing NNI: done in 4.18983 secs using 398.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -38557.325
+Optimizing NNI: done in 3.58467 secs using 397.8% CPU
+Optimizing NNI: done in 3.90333 secs using 397% CPU
+Optimizing NNI: done in 4.30593 secs using 399.1% CPU
+Optimizing NNI: done in 4.05669 secs using 395.7% CPU
+Optimizing NNI: done in 3.63975 secs using 398.3% CPU
+Optimizing NNI: done in 3.39813 secs using 393.1% CPU
+Optimizing NNI: done in 3.9944 secs using 398.1% CPU
+Optimizing NNI: done in 4.20561 secs using 398.8% CPU
+Iteration 30 / LogL: -38563.656 / Time: 0h:4m:51s (0h:15m:23s left)
+Optimizing NNI: done in 3.44694 secs using 398.8% CPU
+Optimizing NNI: done in 2.99789 secs using 397.1% CPU
+Optimizing NNI: done in 3.51384 secs using 399.2% CPU
+Optimizing NNI: done in 3.01935 secs using 398.8% CPU
+Optimizing NNI: done in 4.33065 secs using 398.8% CPU
+Optimizing NNI: done in 3.65414 secs using 396.1% CPU
+Optimizing NNI: done in 3.45534 secs using 398.3% CPU
+Optimizing NNI: done in 4.99143 secs using 398.5% CPU
+Optimizing NNI: done in 4.19454 secs using 399% CPU
+Optimizing NNI: done in 3.42643 secs using 398.5% CPU
+Iteration 40 / LogL: -38564.927 / Time: 0h:5m:28s (0h:11m:31s left)
+Optimizing NNI: done in 3.73829 secs using 399.3% CPU
+Optimizing NNI: done in 2.87818 secs using 399.7% CPU
+Optimizing NNI: done in 2.91159 secs using 398.3% CPU
+Optimizing NNI: done in 3.125 secs using 398.2% CPU
+Optimizing NNI: done in 3.47667 secs using 398.3% CPU
+Optimizing NNI: done in 4.00102 secs using 398.5% CPU
+Optimizing NNI: done in 3.71056 secs using 397.5% CPU
+Optimizing NNI: done in 4.27979 secs using 398% CPU
+Optimizing NNI: done in 3.65974 secs using 398.5% CPU
+Optimizing NNI: done in 3.551 secs using 397.3% CPU
+Iteration 50 / LogL: -38557.519 / Time: 0h:6m:4s (0h:8m:55s left)
+Optimizing NNI: done in 3.75139 secs using 399.4% CPU
+Optimizing NNI: done in 5.07098 secs using 397.2% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 52: -38556.292
+Optimizing NNI: done in 4.12877 secs using 399.6% CPU
+Optimizing NNI: done in 3.5872 secs using 398.2% CPU
+Optimizing NNI: done in 3.845 secs using 398.1% CPU
+Optimizing NNI: done in 3.65182 secs using 398.4% CPU
+Optimizing NNI: done in 3.43859 secs using 398.6% CPU
+Optimizing NNI: done in 4.84962 secs using 397.6% CPU
+Optimizing NNI: done in 4.87103 secs using 395.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 59: -38552.845
+Optimizing NNI: done in 3.92808 secs using 398.1% CPU
+Iteration 60 / LogL: -38557.768 / Time: 0h:6m:47s (0h:11m:24s left)
+Optimizing NNI: done in 4.19531 secs using 396.3% CPU
+Optimizing NNI: done in 5.39801 secs using 398.3% CPU
+Optimizing NNI: done in 4.77646 secs using 398.2% CPU
+Optimizing NNI: done in 4.88417 secs using 398.5% CPU
+Optimizing NNI: done in 4.01032 secs using 398% CPU
+Optimizing NNI: done in 4.73584 secs using 398.9% CPU
+Optimizing NNI: done in 3.38755 secs using 399.5% CPU
+Optimizing NNI: done in 5.28201 secs using 398.3% CPU
+Optimizing NNI: done in 4.21846 secs using 398.8% CPU
+Optimizing NNI: done in 4.12786 secs using 399.2% CPU
+Iteration 70 / LogL: -38557.522 / Time: 0h:7m:33s (0h:9m:44s left)
+Optimizing NNI: done in 3.97035 secs using 398.9% CPU
+Optimizing NNI: done in 3.31934 secs using 399.7% CPU
+Optimizing NNI: done in 4.11751 secs using 396.9% CPU
+Optimizing NNI: done in 3.66419 secs using 398.5% CPU
+Optimizing NNI: done in 4.06495 secs using 399.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 75: -38551.676
+Optimizing NNI: done in 3.71152 secs using 399.8% CPU
+Optimizing NNI: done in 4.29269 secs using 397.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 77: -38551.049
+Optimizing NNI: done in 3.91224 secs using 398.3% CPU
+Optimizing NNI: done in 4.40095 secs using 398.9% CPU
+Optimizing NNI: done in 3.29804 secs using 399.4% CPU
+Iteration 80 / LogL: -38553.714 / Time: 0h:8m:14s (0h:10m:6s left)
+Optimizing NNI: done in 3.07399 secs using 397.6% CPU
+Optimizing NNI: done in 3.505 secs using 398.1% CPU
+Optimizing NNI: done in 4.99092 secs using 398.9% CPU
+Optimizing NNI: done in 3.25903 secs using 398.6% CPU
+Optimizing NNI: done in 3.20862 secs using 398.7% CPU
+Optimizing NNI: done in 4.00791 secs using 398% CPU
+Optimizing NNI: done in 4.22165 secs using 399.1% CPU
+Optimizing NNI: done in 3.16788 secs using 398.1% CPU
+Optimizing NNI: done in 4.44408 secs using 397.8% CPU
+Optimizing NNI: done in 3.26886 secs using 397.9% CPU
+Iteration 90 / LogL: -38551.176 / Time: 0h:8m:51s (0h:8m:39s left)
+Optimizing NNI: done in 4.11225 secs using 398.3% CPU
+Optimizing NNI: done in 4.22045 secs using 398.1% CPU
+Optimizing NNI: done in 4.33638 secs using 398.5% CPU
+Optimizing NNI: done in 4.43192 secs using 398% CPU
+Optimizing NNI: done in 4.98401 secs using 398.8% CPU
+Optimizing NNI: done in 3.87472 secs using 397.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 96: -38545.007
+Optimizing NNI: done in 3.72886 secs using 398.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 97: -38543.181
+Optimizing NNI: done in 4.60084 secs using 398.6% CPU
+Optimizing NNI: done in 4.9489 secs using 398.6% CPU
+Optimizing NNI: done in 3.42242 secs using 398.5% CPU
+Iteration 100 / LogL: -38543.221 / Time: 0h:9m:36s (0h:9m:24s left)
+Optimizing NNI: done in 3.97224 secs using 399.3% CPU
+Optimizing NNI: done in 4.71425 secs using 398.1% CPU
+Optimizing NNI: done in 4.23905 secs using 398.3% CPU
+Optimizing NNI: done in 3.24325 secs using 397.1% CPU
+Optimizing NNI: done in 4.50216 secs using 398.7% CPU
+Optimizing NNI: done in 4.31166 secs using 399.3% CPU
+Optimizing NNI: done in 3.84991 secs using 398.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 107: -38542.995
+Optimizing NNI: done in 5.58751 secs using 398.6% CPU
+Optimizing NNI: done in 4.95182 secs using 398.4% CPU
+Optimizing NNI: done in 4.38081 secs using 398.3% CPU
+Iteration 110 / LogL: -38543.211 / Time: 0h:10m:21s (0h:9m:12s left)
+Optimizing NNI: done in 5.65349 secs using 397.9% CPU
+Optimizing NNI: done in 5.48086 secs using 398.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 112: -38540.054
+Optimizing NNI: done in 4.51372 secs using 398.7% CPU
+Optimizing NNI: done in 3.86245 secs using 399.4% CPU
+Optimizing NNI: done in 4.58494 secs using 397.6% CPU
+Optimizing NNI: done in 5.35141 secs using 397.3% CPU
+Optimizing NNI: done in 3.89205 secs using 398.5% CPU
+Optimizing NNI: done in 4.13518 secs using 398.5% CPU
+Optimizing NNI: done in 5.23413 secs using 398% CPU
+Optimizing NNI: done in 3.90212 secs using 397.9% CPU
+Iteration 120 / LogL: -38549.305 / Time: 0h:11m:9s (0h:8m:37s left)
+Optimizing NNI: done in 3.67156 secs using 397.8% CPU
+Optimizing NNI: done in 4.18258 secs using 395.4% CPU
+Optimizing NNI: done in 4.26826 secs using 396.4% CPU
+Optimizing NNI: done in 5.11522 secs using 399.2% CPU
+Optimizing NNI: done in 3.68311 secs using 398.8% CPU
+Optimizing NNI: done in 4.69115 secs using 398.3% CPU
+Optimizing NNI: done in 4.47625 secs using 398.2% CPU
+Optimizing NNI: done in 5.24619 secs using 397.3% CPU
+Optimizing NNI: done in 4.54131 secs using 399% CPU
+Optimizing NNI: done in 4.16869 secs using 397.4% CPU
+Iteration 130 / LogL: -38545.792 / Time: 0h:11m:53s (0h:7m:33s left)
+Optimizing NNI: done in 6.27848 secs using 398.2% CPU
+Optimizing NNI: done in 3.49693 secs using 399.8% CPU
+Optimizing NNI: done in 4.19587 secs using 398.7% CPU
+Optimizing NNI: done in 4.47018 secs using 397.5% CPU
+Optimizing NNI: done in 3.88533 secs using 395.2% CPU
+Optimizing NNI: done in 4.90658 secs using 397.8% CPU
+Optimizing NNI: done in 4.47005 secs using 397.8% CPU
+Optimizing NNI: done in 4.30214 secs using 399.2% CPU
+Optimizing NNI: done in 3.51131 secs using 397.9% CPU
+Optimizing NNI: done in 3.36893 secs using 398.6% CPU
+Iteration 140 / LogL: -38563.845 / Time: 0h:12m:37s (0h:6m:32s left)
+Optimizing NNI: done in 3.05592 secs using 398% CPU
+Optimizing NNI: done in 4.14751 secs using 399% CPU
+Optimizing NNI: done in 4.70584 secs using 397.6% CPU
+Optimizing NNI: done in 4.35362 secs using 398.5% CPU
+Optimizing NNI: done in 4.36406 secs using 398% CPU
+Optimizing NNI: done in 3.64478 secs using 398.4% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 146: -38539.809
+Optimizing NNI: done in 4.01135 secs using 398.1% CPU
+Optimizing NNI: done in 3.8803 secs using 394.1% CPU
+Optimizing NNI: done in 3.622 secs using 398.3% CPU
+Optimizing NNI: done in 4.28251 secs using 398.2% CPU
+Iteration 150 / LogL: -38540.077 / Time: 0h:13m:18s (0h:8m:34s left)
+Optimizing NNI: done in 4.16155 secs using 398.3% CPU
+Optimizing NNI: done in 4.45707 secs using 395% CPU
+Optimizing NNI: done in 4.10221 secs using 398.8% CPU
+Optimizing NNI: done in 5.33004 secs using 395.2% CPU
+Optimizing NNI: done in 3.64859 secs using 398.1% CPU
+Optimizing NNI: done in 4.16598 secs using 399.2% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 156: -38539.444
+Optimizing NNI: done in 4.0843 secs using 397.5% CPU
+Optimizing NNI: done in 3.3209 secs using 394.1% CPU
+Optimizing NNI: done in 4.00147 secs using 397.7% CPU
+Optimizing NNI: done in 4.9745 secs using 398.1% CPU
+Iteration 160 / LogL: -38548.740 / Time: 0h:14m:2s (0h:8m:28s left)
+Optimizing NNI: done in 4.88305 secs using 398.3% CPU
+Optimizing NNI: done in 3.77211 secs using 398.7% CPU
+Optimizing NNI: done in 3.05797 secs using 398.5% CPU
+Optimizing NNI: done in 3.61086 secs using 398.8% CPU
+Optimizing NNI: done in 3.97403 secs using 397.7% CPU
+Optimizing NNI: done in 3.79155 secs using 397.8% CPU
+Optimizing NNI: done in 4.00693 secs using 398.6% CPU
+Optimizing NNI: done in 3.10571 secs using 398.4% CPU
+Optimizing NNI: done in 4.65188 secs using 396.5% CPU
+Optimizing NNI: done in 3.78607 secs using 398.4% CPU
+Iteration 170 / LogL: -38544.361 / Time: 0h:14m:41s (0h:7m:28s left)
+Optimizing NNI: done in 5.47405 secs using 394.8% CPU
+Optimizing NNI: done in 3.01159 secs using 398.7% CPU
+Optimizing NNI: done in 3.291 secs using 399.2% CPU
+Optimizing NNI: done in 2.99349 secs using 399.2% CPU
+Optimizing NNI: done in 4.223 secs using 399% CPU
+Optimizing NNI: done in 4.13137 secs using 399.2% CPU
+Optimizing NNI: done in 3.99757 secs using 398.4% CPU
+Optimizing NNI: done in 3.59213 secs using 399% CPU
+Optimizing NNI: done in 3.15516 secs using 399.2% CPU
+Optimizing NNI: done in 3.96697 secs using 398.4% CPU
+Iteration 180 / LogL: -38539.764 / Time: 0h:15m:19s (0h:6m:30s left)
+Optimizing NNI: done in 3.54626 secs using 398.5% CPU
+Optimizing NNI: done in 3.03898 secs using 397.7% CPU
+Optimizing NNI: done in 4.33416 secs using 398.4% CPU
+Optimizing NNI: done in 4.68843 secs using 398.4% CPU
+Optimizing NNI: done in 2.92907 secs using 398.3% CPU
+Optimizing NNI: done in 2.91971 secs using 398.4% CPU
+Optimizing NNI: done in 3.89102 secs using 398.8% CPU
+Optimizing NNI: done in 3.62067 secs using 397.6% CPU
+Optimizing NNI: done in 3.66498 secs using 397.2% CPU
+Optimizing NNI: done in 3.81095 secs using 398% CPU
+Iteration 190 / LogL: -38547.034 / Time: 0h:15m:56s (0h:5m:33s left)
+Optimizing NNI: done in 3.81956 secs using 397.9% CPU
+Optimizing NNI: done in 4.47519 secs using 398.3% CPU
+Optimizing NNI: done in 5.13437 secs using 365.9% CPU
+Optimizing NNI: done in 7.07642 secs using 378.2% CPU
+Optimizing NNI: done in 8.79233 secs using 365.8% CPU
+Optimizing NNI: done in 4.60057 secs using 394.7% CPU
+Optimizing NNI: done in 3.62657 secs using 397.9% CPU
+Optimizing NNI: done in 4.63124 secs using 389.9% CPU
+Optimizing NNI: done in 4.26311 secs using 397.8% CPU
+Optimizing NNI: done in 4.96285 secs using 392.2% CPU
+Iteration 200 / LogL: -38542.402 / Time: 0h:16m:48s (0h:4m:43s left)
+Optimizing NNI: done in 3.60926 secs using 398.3% CPU
+Optimizing NNI: done in 3.65596 secs using 397.5% CPU
+Optimizing NNI: done in 3.7307 secs using 398% CPU
+Optimizing NNI: done in 4.22494 secs using 398.1% CPU
+Optimizing NNI: done in 4.4068 secs using 393.4% CPU
+Optimizing NNI: done in 3.80512 secs using 398.9% CPU
+Optimizing NNI: done in 4.08168 secs using 397.9% CPU
+Optimizing NNI: done in 3.97804 secs using 397.3% CPU
+Optimizing NNI: done in 3.52503 secs using 398.4% CPU
+Optimizing NNI: done in 3.09121 secs using 399.5% CPU
+Iteration 210 / LogL: -38540.270 / Time: 0h:17m:27s (0h:3m:50s left)
+Optimizing NNI: done in 3.96154 secs using 398.3% CPU
+Optimizing NNI: done in 3.70139 secs using 398.1% CPU
+Optimizing NNI: done in 4.06028 secs using 395.5% CPU
+Optimizing NNI: done in 3.22137 secs using 398.2% CPU
+Optimizing NNI: done in 4.45759 secs using 394.7% CPU
+Optimizing NNI: done in 4.74801 secs using 396.6% CPU
+Optimizing NNI: done in 3.78596 secs using 396.8% CPU
+Optimizing NNI: done in 3.67469 secs using 397.8% CPU
+Optimizing NNI: done in 3.71677 secs using 398.3% CPU
+Optimizing NNI: done in 3.57748 secs using 398.7% CPU
+Iteration 220 / LogL: -38551.286 / Time: 0h:18m:6s (0h:2m:58s left)
+Optimizing NNI: done in 3.71894 secs using 398.4% CPU
+Optimizing NNI: done in 4.18627 secs using 398.8% CPU
+Optimizing NNI: done in 4.22753 secs using 398.4% CPU
+Optimizing NNI: done in 4.70125 secs using 387.4% CPU
+Optimizing NNI: done in 4.62061 secs using 398.1% CPU
+Optimizing NNI: done in 3.59298 secs using 397.6% CPU
+Optimizing NNI: done in 4.24628 secs using 398.7% CPU
+Optimizing NNI: done in 3.955 secs using 398.1% CPU
+Optimizing NNI: done in 4.31738 secs using 396.9% CPU
+Optimizing NNI: done in 4.82136 secs using 399.8% CPU
+Iteration 230 / LogL: -38546.157 / Time: 0h:18m:49s (0h:2m:8s left)
+Optimizing NNI: done in 4.54869 secs using 399.6% CPU
+Optimizing NNI: done in 3.06037 secs using 396.6% CPU
+Optimizing NNI: done in 3.09393 secs using 399.4% CPU
+Optimizing NNI: done in 3.55595 secs using 399% CPU
+Optimizing NNI: done in 3.09466 secs using 399.1% CPU
+Optimizing NNI: done in 3.57456 secs using 398.7% CPU
+Optimizing NNI: done in 3.84339 secs using 399.6% CPU
+Optimizing NNI: done in 3.66832 secs using 397.6% CPU
+Optimizing NNI: done in 3.4685 secs using 397.6% CPU
+Optimizing NNI: done in 4.21226 secs using 398.6% CPU
+Iteration 240 / LogL: -38539.523 / Time: 0h:19m:26s (0h:1m:18s left)
+Optimizing NNI: done in 4.01951 secs using 398.5% CPU
+Optimizing NNI: done in 3.26097 secs using 398.3% CPU
+Optimizing NNI: done in 3.23204 secs using 398.2% CPU
+Optimizing NNI: done in 3.15539 secs using 397.8% CPU
+Optimizing NNI: done in 3.17967 secs using 398.7% CPU
+Optimizing NNI: done in 4.09359 secs using 399.2% CPU
+Optimizing NNI: done in 4.14976 secs using 398.3% CPU
+Optimizing NNI: done in 2.91079 secs using 399.1% CPU
+Optimizing NNI: done in 3.9651 secs using 398.7% CPU
+Optimizing NNI: done in 3.36685 secs using 398.3% CPU
+Iteration 250 / LogL: -38539.800 / Time: 0h:20m:2s (0h:0m:28s left)
+Optimizing NNI: done in 3.74186 secs using 398.2% CPU
+Optimizing NNI: done in 4.70725 secs using 398.6% CPU
+Optimizing NNI: done in 4.17439 secs using 398.2% CPU
+Optimizing NNI: done in 3.40876 secs using 399.1% CPU
+Optimizing NNI: done in 3.85317 secs using 398.2% CPU
+Optimizing NNI: done in 3.60057 secs using 399.1% CPU
+Optimizing NNI: done in 3.00738 secs using 397.2% CPU
+TREE SEARCH COMPLETED AFTER 257 ITERATIONS / Time: 0h:20m:28s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -38539.444
+Optimal log-likelihood: -38539.433
+Rate parameters:  A-C: 1.10670  A-G: 8.69901  A-T: 1.29554  C-G: 0.37912  C-T: 26.97588  G-T: 1.00000
+Base frequencies:  A: 0.268  C: 0.212  G: 0.290  T: 0.230
+Proportion of invariable sites: 0.559
+Gamma shape alpha: 1.413
+Parameters optimization took 1 rounds (0.788 sec)
+BEST SCORE FOUND : -38539.433
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+23.317 sec.
+Total tree length: 0.606
+
+Total number of iterations: 257
+CPU time used for tree search: 4187.963 sec (1h:9m:47s)
+Wall-clock time used for tree search: 1070.487 sec (0h:17m:50s)
+Total CPU time used: 4899.784 sec (1h:21m:39s)
+Total wall-clock time used: 1253.069 sec (0h:20m:53s)
+
+Analysis results written to: 
+  IQ-TREE report:                NCBIVirus_YFVSelectAlignedTrimmedOutlierRemovedSeqs.fasta.iqtree
+  Maximum-likelihood tree:       NCBIVirus_YFVSelectAlignedTrimmedOutlierRemovedSeqs.fasta.treefile
+  Likelihood distances:          NCBIVirus_YFVSelectAlignedTrimmedOutlierRemovedSeqs.fasta.mldist
+  Screen log file:               NCBIVirus_YFVSelectAlignedTrimmedOutlierRemovedSeqs.fasta.log
+
+ALISIM COMMAND
+--------------
+--alisim simulated_MSA -t NCBIVirus_YFVSelectAlignedTrimmedOutlierRemovedSeqs.fasta.treefile -m "GTR{1.1067,8.69901,1.29554,0.379115,26.9759}+F{0.268493,0.21186,0.290089,0.229558}+I{0.559306}+G4{1.41343}" --length 10236
+
+Date and Time: Tue Sep 13 15:17:24 2022
