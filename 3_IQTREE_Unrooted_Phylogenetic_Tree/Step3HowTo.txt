@@ -1,0 +1,43 @@
+Next Step: Use Aliview to Check Alignment, Trim/Remove Problematic Sequences
+
+With our multiple sequence alignment now generated, we’re going to view this graphically using the tool aliview (https://ormbunkar.se/aliview/). 
+As with the other tools we’re going to assume you’ve successfully downloaded these, and dive straight into the analyses. 
+We’ll use aliview to examine the MSA, see whether there are any issues, and manually trim all the sequences.
+
+With aliview navigate to File -> Open File -> yellow_fever_epiphylo/2_Multiple_Sequence_Alignment_Generation/NCBIVirus_YFVSelectAlignedSeqs.fasta and double click to open.
+
+Then navigate to File -> Save as Fasta and save this file as yellow_fever_epiphylo/3_IQTREE_Unrooted_Phylogenetic_Tree/NCBIVirus_YFVSelectAlignedTrimmedSeqs.fasta
+
+The very top genome will be our reference genome - we’re going to start by deleting this. Click the panel with the sequence name on the LHS to highlight the genome and then rightclick and “Delete Selected Sequence”. 
+
+We're now going to trim our sequences to remove ????????
+
+GET FILIPE TO ASSIST WITH WHAT, HOW AND WHEN TO BE TRIMMING HERE. 
+
+Close your current conda environment (the one we made for MAFFT) by running the following command:
+
+conda deactivate
+
+Next Step: Use IQTree to Generate Unrooted Phylogenetic Tree
+
+Now create a new and specific conda environment for IQTREE by running the following command 
+
+	conda create --name iqtree
+
+and then typing “y” into the console when prompted. This will create a fresh conda environment for you to install IQTREE into. Install IQTREE by running:
+
+	conda install -c bioconda iqtree (See https://anaconda.org/bioconda/iqtree for further details)
+
+With IQTREE successfully installed, now run the following command:
+
+	conda activate iqtree
+
+and then change to the relevant directory where the trimmed fasta file is i.e. 
+
+	cd 3_IQTREE_Unrooted_Phylogenetic_Tree
+
+and then:	
+
+	iqtree -nt 4 -s NCBIVirus_YFVSelectAlignedTrimmedSeqs.fasta -m GTR+F+I+G4 -alrt 1000
+
+This may take a while, but the output will be a series of files including a tree file that we’ll use FigTree to view in the next step of this tutorial. The output from this step will be an unrooted, maximum-likelihood phylogenetic tree for the sequences that you’ve collated.
