@@ -9,8 +9,8 @@ yfv_metadata <- yfv_metadata %>%
   mutate(Country = gsub(" ", "-", Country)) %>%
   mutate(Country = gsub("'", "-", Country))
 
-# Creating Subsetting Index to Identify Sequences of Interest (LatAm origin in our case, and precise date of collection)
-table(yfv_metadata$Country, useNA = "ifany")
+# Creating Subsetting Index to Identify Sequences of Interest (LatAm origin in our case, and 
+# precise date of collection)
 countries <- c("Bolivia", "Brazil", "Ecuador", "Peru", "Trinidad-and-Tobago", "Venezuela")
 country_subset_index <- yfv_metadata$Country %in% countries
 date_subset_index <- nchar(yfv_metadata$Collection_Date) == 10
@@ -41,12 +41,13 @@ for (i in 1:nrow(yfv_metadata_subset)) {
 write.FASTA(x = all_seqs_proc, file = paste0("2_Multiple_Sequence_Alignment_Generation/NCBIVirus_YFVSelectSeqs.fasta"))
 
 # Creating Tab-Delimited Version of Metadata for Annotation
-## Note that on windows PC, saving with "|" in file name doesn't work, so have to save with "_"
-## but "|" used in fasta metadata line
 names_vertical_bar <- gsub("_", "|", names)
 yfv_metadata_subset$taxa <- names_vertical_bar 
 yfv_metadata_subset <- yfv_metadata_subset %>%
   relocate(taxa)
 readr::write_tsv(yfv_metadata_subset, "2_Multiple_Sequence_Alignment_Generation/NCBIVirus_YFVSelectSeqs_Metadata.tsv")
 
+
+## Note that on windows PC, saving with "|" in file name doesn't work, so have to save with "_"
+## but "|" used in fasta metadata line
 # new_name <- sub("[^|]+", str_extract(names[i], "[^_]+"), names(temp_fasta)) # removing the version from accession id
