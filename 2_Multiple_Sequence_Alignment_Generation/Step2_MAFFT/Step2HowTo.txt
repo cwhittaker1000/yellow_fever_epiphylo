@@ -1,0 +1,34 @@
+Next Step: Use MAFFT and the Reference Genome to Create a Multiple Sequence Alignment 
+
+Create a specific conda environment for MAFFT by running the following command 
+
+	conda create --name maaft_seq_align
+
+and then typing “y” into the console when prompted. This will create a fresh conda environment for you to install MAFFT into.
+MAFFT is available via conda (specifically bioconda, see https://bioconda.github.io/ and https://anaconda.org/bioconda/mafft). If this is your first time using bioconda you’ll need to run the following (in this order):
+
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+
+From there you can install MAFFT by running:
+
+	conda install -c bioconda mafft
+
+With MAFFT successfully installed, we’re then going to use it to generate a multiple-sequence alignment, leveraging its functionality allowing rapid calculation of an MSA for closely related viral genomes (see here for further information: https://mafft.cbrc.jp/alignment/software/closelyrelatedviralgenomes.html). 
+
+First change to the relevant working directory:
+
+	cd yellow_fever_epiphylo
+
+Then activate the relevant conda environment:
+
+	conda activate maaft_seq_align
+
+Then run the following mafft command:
+
+	mafft --6merpair --addfragments 2_Multiple_Sequence_Alignment_Generation/NCBIVirus_YFVSelectSeqs.fasta  2_Multiple_Sequence_Alignment_Generation/NCBIVirus_YFVRefSeq.fasta > 2_Multiple_Sequence_Alignment_Generation/NCBIVirus_YFVSelectAlignedSeqs.fasta
+
+Note that the definition line for each sequence in yfv_refSeq.fasta must have its metadata separated by a “|” rather than any other character. 
+The output from running this will be an aligned fasta file that we’ll view and trim in the next step of this tutorial. 

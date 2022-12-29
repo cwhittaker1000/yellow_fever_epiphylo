@@ -1,0 +1,20 @@
+# Tips for aligning VEEV with minimap2 and gofasta
+
+# Activate pangolin conda env -> it contains all dependencies
+$ conda activate pangolin
+
+# Map all sequences to reference genome
+$ minimap2 -a --sam-hit-only --secondary=no --score-N=0 NCBIVirus_YFVRefSeq.fasta NCBIVirus_YFVSelectSeqs.fasta -o NCBIVirus_YFVSelectSeqs.sam
+
+# Convert sam file to multifasta alignment
+# gofasta allows one to easily mask UTR regions
+# UTR positions were obtained from the reference genome annotation
+$ gofasta sam toMultiAlign -s VEEV_JP.sam --trim --trimstart 44 --trimend 11327 --pad -o aln.VEEV_JP.fasta
+$ gofasta sam toMultiAlign -s NCBIVirus_YFVSelectSeqs.sam -o NCBIVirus_YFVSelectAlignedSeqs.fasta
+
+# Manual trimming. 
+# In general you want to remove non-coding regions from the alignment.
+# To do this, first remove the intergenic regions (sites 7527 - 7561) characteristic of Alphavirus genomes.
+# Then removed masked UTRs.
+# Finally, visualize the alignment aminoacid-wise and trim sites only covered in few sequences (AA 1660-1848).
+# Don't forget to backtranslate before saving.
